@@ -1,88 +1,88 @@
 [submodule "dynutils"]
 	path = dynutils
 	url = git@github.com:rcannood/dynutils.git
-  branch = master
+	branch = master
 [submodule "dyneval"]
 	path = dyneval
 	url = git@github.com:rcannood/dyneval.git
-  branch = master
+	branch = master
 [submodule "dynvaria"]
 	path = dynvaria
 	url = git@github.com:rcannood/dynvaria.git
-  branch = master
+	branch = master
 [submodule "dynmodular"]
 	path = dynmodular
 	url = git@github.com:rcannood/dynmodular.git
-  branch = master
+	branch = master
 [submodule "dynreal"]
 	path = dynreal
 	url = git@github.com:Zouter/dynreal.git
-  branch = master
+	branch = master
 [submodule "dyngen"]
 	path = dyngen
 	url = git@github.com:Zouter/dyngen.git
-  branch = master
+	branch = master
 [submodule "dynalysis"]
 	path = dynalysis
 	url = git@github.com:Zouter/dynalysis.git
-  branch = master
+	branch = master
 [submodule "dyntoy"]
 	path = dyntoy
 	url = git@github.com:Zouter/dyntoy.git
-  branch = master
+	branch = master
 [submodule "dynplot"]
 	path = dynplot
 	url = git@github.com:Zouter/dynplot.git
-  branch = master
+	branch = master
 [submodule "methods/topslam"]
 	path = methods/topslam
 	url = git@github.com:dynverse/topslam.git
-  branch = master
+	branch = master
 [submodule "methods/Mpath"]
 	path = methods/Mpath
 	url = git@github.com:dynverse/Mpath.git
-  branch = master
+	branch = master
 [submodule "methods/SCUBA"]
 	path = methods/SCUBA
 	url = git@github.com:dynverse/SCUBA.git
-  branch = master
+	branch = master
 [submodule "methods/pseudogp"]
 	path = methods/pseudogp
 	url = git@github.com:dynverse/pseudogp.git
-  branch = master
+	branch = master
 [submodule "methods/Wishbone"]
 	path = methods/Wishbone
 	url = git@github.com:dynverse/Wishbone.git
-  branch = master
+	branch = master
 [submodule "methods/GPfates"]
 	path = methods/GPfates
 	url = git@github.com:dynverse/GPfates.git
-  branch = master
+	branch = master
 [submodule "methods/SLICE"]
 	path = methods/SLICE
 	url = git@github.com:dynverse/SLICE.git
-  branch = master
+	branch = master
 [submodule "methods/StemID"]
 	path = methods/StemID
 	url = git@github.com:dynverse/StemID.git
-  branch = master
+	branch = master
 [submodule "methods/Waterfall"]
 	path = methods/Waterfall
 	url = git@github.com:dynverse/Waterfall.git
-  branch = master
+	branch = master
 [submodule "methods/pywishbone"]
 	path = methods/pywishbone
 	url = git@github.com:dynverse/pywishbone.git
-  branch = master
+	branch = master
 [submodule "methods/PySCUBA"]
 	path = methods/PySCUBA
 	url = git@github.com:dynverse/PySCUBA.git
-  branch = master
+	branch = master
 [submodule "libraries/GEDEVO"]
 	path = libraries/GEDEVO
 	url = git@github.com:dynverse/GEDEVO.git
-  branch = master
+	branch = master
 [submodule "libraries/fastgssa"]
 	path = libraries/fastgssa
 	url = git@github.com:dynverse/fastgssa.git
-  branch = master
+	branch = master
