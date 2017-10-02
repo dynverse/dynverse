@@ -1,0 +1,26 @@
+Package: dynverse
+Type: Package
+Title: Easy installing and loading of the dynverse
+Version: 0.1.0
+Authors@R: c(
+  person("Robrecht", "Cannoodt", email = "robrecht.cannoodt@gmail.com", role = c("aut")),
+  person("Wouter", "Saelens", email = "wouter.saelens@ugent.be", role = c("aut", "cre")))
+Description: The 'dynverse' is a set of packages with which to 
+  evaluate trajectory inference methods for dynamic processes.
+Depends: 
+  R (>= 3.1),
+  dynutils,
+  dyntoy,
+  dynreal,
+  dyneval,
+  dyngen
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Remotes:
+  rcannood/dynutils,
+  rcannood/dyneval,
+  Zouter/dyntoy,
+  Zouter/dynreal,
+  Zouter/dyngen
+RoxygenNote: 6.0.1
