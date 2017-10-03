@@ -6,10 +6,6 @@
 	path = dyneval
 	url = git@github.com:rcannood/dyneval.git
 	branch = master
-[submodule "dynvaria"]
-	path = dynvaria
-	url = git@github.com:rcannood/dynvaria.git
-	branch = master
 [submodule "dynmodular"]
 	path = dynmodular
 	url = git@github.com:rcannood/dynmodular.git
