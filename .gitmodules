@@ -82,3 +82,11 @@
 	path = libraries/fastgssa
 	url = git@github.com:dynverse/fastgssa.git
 	branch = master
+[submodule "libraries/PRISM"]
+	path = libraries/PRISM
+	url = git@github.com:rcannood/PRISM.git
+	branch = master
+[submodule "methods/SCORPIUS"]
+	path = methods/SCORPIUS
+	url = git@github.com:rcannood/SCORPIUS.git
+	branch = master
