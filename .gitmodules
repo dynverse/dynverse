@@ -10,10 +10,6 @@
 	path = dynmodular
 	url = git@github.com:rcannood/dynmodular.git
 	branch = master
-[submodule "dynreal"]
-	path = dynreal
-	url = git@github.com:Zouter/dynreal.git
-	branch = master
 [submodule "dyngen"]
 	path = dyngen
 	url = git@github.com:Zouter/dyngen.git
