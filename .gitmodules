@@ -86,3 +86,7 @@
 	path = methods/SCORPIUS
 	url = git@github.com:rcannood/SCORPIUS.git
 	branch = master
+[submodule "methods/mfa"]
+	path = methods/mfa
+	url = git@github.com:dynverse/mfa.git
+	branch = master
