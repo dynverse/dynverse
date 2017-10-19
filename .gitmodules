@@ -98,3 +98,11 @@
 	path = methods/SCOUP
 	url = git@github.com:dynverse/SCOUP.git
 	branch = master
+[submodule "methods/SLICER"]
+	path = methods/SLICER
+	url = git@github.com:dynverse/SLICER.git
+	branch = master
+[submodule "methods/slingshot"]
+	path = methods/slingshot
+	url = git@github.com:dynverse/slingshot.git
+	branch = master
