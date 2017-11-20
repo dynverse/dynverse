@@ -106,3 +106,7 @@
 	path = methods/slingshot
 	url = git@github.com:dynverse/slingshot.git
 	branch = master
+[submodule "dynmethods"]
+	path = dynmethods
+	url = git@github.com:rcannood/dynmethods.git
+	branch = master
