@@ -110,3 +110,7 @@
 	path = dynmethods
 	url = git@github.com:rcannood/dynmethods.git
 	branch = master
+[submodule "libraries/splatter"]
+	path = libraries/splatter
+	url = git@github.com:dynverse/splatter.git
+	branch = master
