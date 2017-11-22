@@ -114,3 +114,7 @@
 	path = libraries/splatter
 	url = git@github.com:dynverse/splatter.git
 	branch = master
+[submodule "methods/embeddr"]
+	path = methods/embeddr
+	url = git@github.com:dynverse/embeddr.git
+	branch = master
