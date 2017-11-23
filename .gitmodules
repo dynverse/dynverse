@@ -118,3 +118,7 @@
 	path = methods/embeddr
 	url = git@github.com:dynverse/embeddr.git
 	branch = master
+[submodule "libraries/scaterlegacy"]
+	path = libraries/scaterlegacy
+	url = git@github.com:dynverse/scaterlegacy.git
+	branch = master
