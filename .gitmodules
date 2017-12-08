@@ -126,3 +126,7 @@
 	path = libraries/devtools
 	url = git@github.com:dynverse/devtools.git
 	branch = master
+[submodule "methods/cellTree"]
+	path = methods/cellTree
+	url = git@github.com:dynverse/cellTree.git
+	branch = RELEASE_3_6
