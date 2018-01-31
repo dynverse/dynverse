@@ -70,10 +70,6 @@
 	path = methods/PySCUBA
 	url = git@github.com:dynverse/PySCUBA.git
 	branch = master
-[submodule "libraries/GEDEVO"]
-	path = libraries/GEDEVO
-	url = git@github.com:dynverse/GEDEVO.git
-	branch = master
 [submodule "libraries/fastgssa"]
 	path = libraries/fastgssa
 	url = git@github.com:dynverse/fastgssa.git
