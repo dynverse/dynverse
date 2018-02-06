@@ -122,3 +122,7 @@
 	path = methods/cellTree
 	url = git@github.com:dynverse/cellTree.git
 	branch = RELEASE_3_6
+[submodule "libraries/dynnormaliser"]
+	path = libraries/dynnormaliser
+	url = git@github.com:rcannood/dynnormaliser.git
+	branch = master
