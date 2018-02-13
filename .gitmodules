@@ -130,3 +130,15 @@
 	path = methods/ouijaflow
 	url = git@github.com:dynverse/ouijaflow.git
 	branch = master
+[submodule "generators/dyngen"]
+	path = generators/dyngen
+	url = git@github.com:Zouter/dyngen.git
+	branch = master
+[submodule "generators/dyncontrol"]
+	path = generators/dyncontrol
+	url = git@github.com:rcannood/dyncontrol.git
+	branch = master
+[submodule "generators/dyntoy"]
+	path = generators/dyntoy
+	url = git@github.com:Zouter/dyntoy.git
+	branch = master
