@@ -142,3 +142,7 @@
 	path = generators/dyntoy
 	url = git@github.com:Zouter/dyntoy.git
 	branch = master
+[submodule "methods/SCIMITAR"]
+	path = methods/SCIMITAR
+	url = git@github.com:dynverse/SCIMITAR.git
+	branch = master
