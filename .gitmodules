@@ -146,3 +146,7 @@
 	path = methods/SCIMITAR
 	url = git@github.com:dynverse/SCIMITAR.git
 	branch = master
+[submodule "methods/reCAT"]
+	path = methods/reCAT
+	url = git@github.com:dynverse/reCAT.git
+	branch = master
