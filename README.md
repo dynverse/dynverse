@@ -6,30 +6,15 @@ Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparis
 \*: Equal contribution
 
 dynverse consists of several subpackages:
-* [dynalysis](https://github.com/dynverse/dynalysis): 
-  (coming soon)
-  All scripts required to replicate the findings of the manuscript 
-* [dynwrap](https://github.com/dynverse/dynwrap):
-  (coming soon)
-  The common trajectory model for representing trajectories from real and synthetic datasets and method predictions
-* [dynmethods](https://github.com/dynverse/dynmethods):
-  (coming soon)
-  Wrappers for trajectory inference methods
-* [dyneval](https://github.com/dynverse/dyneval):
-  (coming soon)
-  Metrics and benchmarking pipeline
-* [dyngen](https://github.com/dynverse/dyngen):
-  (coming soon)
-  Generator of synthetic datasets using thermodynamic models of gene regulatory network containing dynamic processes
-* [dynnormaliser](https://github.com/dynverse/dynnormaliser):
-  (coming soon)
-  Common normalisation functionality for both real and synthetic datasets
-* [dyntoy](https://github.com/dynverse/dyntoy):
-  (coming soon)
-  Quick generator of small toy datasets
-* [dynplot](https://github.com/dynverse/dynplot):
-  (coming soon)
-  Common visualisation functionality for trajectories
-* [dynutils](https://github.com/dynverse/dynutils):
-  (coming soon)
-  Library of various functions
+
+| Package | Description | Status |
+| --- | --- | --- |
+| [dynalysis](https://github.com/dynverse/dynalysis)         | Scripts to reproduce manuscript           | Coming soon |
+| [dynwrap](https://github.com/dynverse/dynwrap)             | Common wrapping functionality             | Coming soon |
+| [dynmethods](https://github.com/dynverse/dynmethods)       | Wrappers for trajectory inference methods | Coming soon |
+| [dyneval](https://github.com/dynverse/dyneval)             | Metrics and evaluation pipeline           | Coming soon |
+| [dyngen](https://github.com/dynverse/dyngen)               | Generator of synthetic datasets           | Coming soon |
+| [dynnormaliser](https://github.com/dynverse/dynnormaliser) | Common normalisation functionality        | Coming soon |
+| [dyntoy](https://github.com/dynverse/dyntoy)               | Quick generator of small toy datasets     | Coming soon |
+| [dynplot](https://github.com/dynverse/dynplot)             | Common visualisation functionality        | Coming soon |
+| [dynutils](https://github.com/dynverse/dynutils)           | Various common functions                  | [![Build Status](https://travis-ci.org/dynverse/dynutils.svg?branch=master)](https://travis-ci.org/dynverse/dynutils) |
