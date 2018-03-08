@@ -31,7 +31,7 @@ df <- tribble(
     Package = glue::glue("[{Repo}](https://github.com/dynverse/{Repo})"),
     Status = ifelse(Repo %in% c("dynwrap", "dynmethods", "dynplot", "dynutils"), glue::glue("[![Build status](https://travis-ci.org/dynverse/{Repo}.svg?branch=master)](https://travis-ci.org/dynverse/{Repo})"), "Coming soon")
   ) %>% 
-  select(-Repo)
+  select(Package, Status, Description)
 knitr::kable(df)
 
 ```
