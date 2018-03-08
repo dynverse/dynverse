@@ -5,8 +5,8 @@ dynverse
 
 **dynverse** is created to support the development, execution, and benchmarking of trajectory inference methods. Check out our preprint on bioRxiv:
 
-Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparison of single-cell trajectory inference methods: towards more accurate and robust tools”. bioRxiv (Mar. 2018). DOI: [10.1101/276907](https://doi.org/10.1101/276907).
-\*: Equal contribution
+Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparison of single-cell trajectory inference methods: towards more accurate and robust tools”. bioRxiv (Mar. 2018). DOI: [10.1101/276907](https://doi.org/10.1101/276907).\
+*: Equal contribution
 
 dynverse consists of several subpackages:
 
