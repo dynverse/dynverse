@@ -8,7 +8,8 @@ output: github_document
 
 **dynverse** is created to support the development, execution, and benchmarking of trajectory inference methods. Check out our preprint on bioRxiv:
 
-Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparison of single-cell trajectory inference methods: towards more accurate and robust tools”. bioRxiv (Mar. 2018). DOI: [10.1101/276907](https://doi.org/10.1101/276907).\
+Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparison of single-cell trajectory inference methods: towards more accurate and robust tools”. bioRxiv (Mar. 2018). DOI: [10.1101/276907](https://doi.org/10.1101/276907).
+
 \*: Equal contribution
 
 dynverse consists of several subpackages:
@@ -29,7 +30,7 @@ df <- tribble(
 ) %>% 
   mutate(
     Package = glue::glue("[{Repo}](https://github.com/dynverse/{Repo})"),
-    Status = ifelse(Repo %in% c("dynwrap", "dynmethods", "dynplot", "dynutils"), glue::glue("[![Build status](https://travis-ci.org/dynverse/{Repo}.svg?branch=master)](https://travis-ci.org/dynverse/{Repo})"), "Coming soon")
+    Status = ifelse(Repo %in% c("dynwrap", "dynmethods", "dynplot", "dynutils", "dynnormaliser", "dyntoy"), glue::glue("[![Build status](https://travis-ci.org/dynverse/{Repo}.svg?branch=master)](https://travis-ci.org/dynverse/{Repo})"), "Coming soon")
   ) %>% 
   select(Package, Status, Description)
 knitr::kable(df)
