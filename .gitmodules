@@ -1,6 +1,6 @@
 [submodule "dynutils"]
 	path = dynutils
-	url = git@github.com:rcannood/dynutils.git
+	url = git@github.com:dynverse/dynutils.git
 	branch = master
 [submodule "dyneval"]
 	path = dyneval
@@ -20,11 +20,11 @@
 	branch = master
 [submodule "dyntoy"]
 	path = dyntoy
-	url = git@github.com:Zouter/dyntoy.git
+	url = git@github.com:dynverse/dyntoy.git
 	branch = master
 [submodule "dynplot"]
 	path = dynplot
-	url = git@github.com:Zouter/dynplot.git
+	url = git@github.com:dynverse/dynplot.git
 	branch = master
 [submodule "methods/topslam"]
 	path = methods/topslam
@@ -104,7 +104,7 @@
 	branch = master
 [submodule "dynmethods"]
 	path = dynmethods
-	url = git@github.com:rcannood/dynmethods.git
+	url = git@github.com:dynverse/dynmethods.git
 	branch = master
 [submodule "libraries/splatter"]
 	path = libraries/splatter
@@ -124,7 +124,7 @@
 	branch = RELEASE_3_6
 [submodule "libraries/dynnormaliser"]
 	path = libraries/dynnormaliser
-	url = git@github.com:rcannood/dynnormaliser.git
+	url = git@github.com:dynverse/dynnormaliser.git
 	branch = master
 [submodule "methods/ouijaflow"]
 	path = methods/ouijaflow
@@ -140,7 +140,7 @@
 	branch = master
 [submodule "generators/dyntoy"]
 	path = generators/dyntoy
-	url = git@github.com:Zouter/dyntoy.git
+	url = git@github.com:dynverse/dyntoy.git
 	branch = master
 [submodule "methods/SCIMITAR"]
 	path = methods/SCIMITAR
