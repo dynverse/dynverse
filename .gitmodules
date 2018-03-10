@@ -4,23 +4,15 @@
 	branch = master
 [submodule "dyneval"]
 	path = dyneval
-	url = git@github.com:rcannood/dyneval.git
+	url = git@github.com:dynverse/dyneval.git
 	branch = master
 [submodule "dynmodular"]
 	path = dynmodular
 	url = git@github.com:rcannood/dynmodular.git
 	branch = master
-[submodule "dyngen"]
-	path = dyngen
-	url = git@github.com:Zouter/dyngen.git
-	branch = master
 [submodule "dynalysis"]
 	path = dynalysis
 	url = git@github.com:Zouter/dynalysis.git
-	branch = master
-[submodule "dyntoy"]
-	path = dyntoy
-	url = git@github.com:dynverse/dyntoy.git
 	branch = master
 [submodule "dynplot"]
 	path = dynplot
@@ -132,7 +124,7 @@
 	branch = master
 [submodule "generators/dyngen"]
 	path = generators/dyngen
-	url = git@github.com:Zouter/dyngen.git
+	url = git@github.com:dynverse/dyngen.git
 	branch = master
 [submodule "generators/dyncontrol"]
 	path = generators/dyncontrol
@@ -153,3 +145,4 @@
 [submodule "dynwrap"]
 	path = dynwrap
 	url = git@github.com:dynverse/dynwrap.git
+	branch = master
