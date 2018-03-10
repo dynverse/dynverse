@@ -5,7 +5,8 @@ dynverse
 
 **dynverse** is created to support the development, execution, and benchmarking of trajectory inference methods. Check out our preprint on bioRxiv:
 
-Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparison of single-cell trajectory inference methods: towards more accurate and robust tools”. bioRxiv (Mar. 2018). DOI: [10.1101/276907](https://doi.org/10.1101/276907).\
+Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparison of single-cell trajectory inference methods: towards more accurate and robust tools”. bioRxiv (Mar. 2018). DOI: [10.1101/276907](https://doi.org/10.1101/276907).
+
 \*: Equal contribution
 
 dynverse consists of several subpackages:
@@ -15,7 +16,7 @@ dynverse consists of several subpackages:
 | [dynalysis](https://github.com/dynverse/dynalysis)         | Coming soon                                                                                                                     | Scripts to reproduce manuscript           |
 | [dynwrap](https://github.com/dynverse/dynwrap)             | [![Build status](https://travis-ci.org/dynverse/dynwrap.svg?branch=master)](https://travis-ci.org/dynverse/dynwrap)             | Common wrapping functionality             |
 | [dynmethods](https://github.com/dynverse/dynmethods)       | [![Build status](https://travis-ci.org/dynverse/dynmethods.svg?branch=master)](https://travis-ci.org/dynverse/dynmethods)       | Wrappers for trajectory inference methods |
-| [dyneval](https://github.com/dynverse/dyneval)             | Coming soon                                                                                                                     | Metrics and evaluation pipeline           |
+| [dyneval](https://github.com/dynverse/dyneval)             | [![Build status](https://travis-ci.org/dynverse/dyneval.svg?branch=master)](https://travis-ci.org/dynverse/dyneval)             | Metrics and evaluation pipeline           |
 | [dyngen](https://github.com/dynverse/dyngen)               | Coming soon                                                                                                                     | Generator of synthetic datasets           |
 | [dynnormaliser](https://github.com/dynverse/dynnormaliser) | [![Build status](https://travis-ci.org/dynverse/dynnormaliser.svg?branch=master)](https://travis-ci.org/dynverse/dynnormaliser) | Common normalisation functionality        |
 | [dyntoy](https://github.com/dynverse/dyntoy)               | [![Build status](https://travis-ci.org/dynverse/dyntoy.svg?branch=master)](https://travis-ci.org/dynverse/dyntoy)               | Quick generator of small toy datasets     |
