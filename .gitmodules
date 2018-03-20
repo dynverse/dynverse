@@ -154,3 +154,7 @@
 	path = methods/StemID2
 	url = git@github.com:dynverse/StemID2.git
 	branch = master
+[submodule "methods/aga"]
+	path = methods/aga
+	url = git@github.com:dynverse/aga.git
+	branch = master
