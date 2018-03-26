@@ -22,3 +22,91 @@ dynverse consists of several subpackages:
 | [dyntoy](https://github.com/dynverse/dyntoy)               | [![Build status](https://travis-ci.org/dynverse/dyntoy.svg?branch=master)](https://travis-ci.org/dynverse/dyntoy)               | Quick generator of small toy datasets     |
 | [dynplot](https://github.com/dynverse/dynplot)             | [![Build status](https://travis-ci.org/dynverse/dynplot.svg?branch=master)](https://travis-ci.org/dynverse/dynplot)             | Common visualisation functionality        |
 | [dynutils](https://github.com/dynverse/dynutils)           | [![Build status](https://travis-ci.org/dynverse/dynutils.svg?branch=master)](https://travis-ci.org/dynverse/dynutils)           | Various common functions                  |
+
+Installation
+------------
+
+Supported platforms are Linux and Mac OS X. Windows users *could* use [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) in order to run these packages on a Windows machine.
+
+### Debian / Ubuntu / Linux Mint
+
+First you need to install a few packages:
+
+``` bash
+sudo apt-get install libudunits2-dev libgsl-dev libsdl1.2-dev libreadline-dev imagemagick libfftw3-dev libudunits2-dev -y
+```
+
+The installation of dynmethods is sped up by preinstalling several Python libraries:
+
+``` bash
+sudo apt-get install python2.7-dev python3-dev python3-pip
+pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
+```
+
+Finally, you can install the dynverse packages with devtools:
+
+``` r
+install.packages("devtools")
+library(devtools)
+install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+```
+
+### Fedora / CentOS
+
+First you need to install a few packages:
+
+``` bash
+sudo dnf install openssl-devel libcurl-devel udunits2-devel libxml2-devel gsl-devel SDL2-devel readline-devel ImageMagick-c++-devel SDL-devel openblas-devel lapack-devel
+```
+
+The installation of dynmethods is sped up by preinstalling several Python libraries:
+
+``` bash
+sudo dnf install python2-devel python3-devel python3-pip python3-matplotlib-tk
+pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
+Rscript -e 'install.packages("udunits2", configure.args =  c(udunits2 = '--with-udunits2-include=/usr/include/udunits2'))'
+```
+
+Finally, you can install the dynverse packages as follows:
+
+``` r
+install.packages("devtools")
+library(devtools)
+install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+```
+
+### Mac OS X
+
+First you will need to install the runtime binary of [SDL1.2](https://www.libsdl.org/download-1.2.php) and the development binary of [SDL2](https://www.libsdl.org/download-2.0.php) manually.
+
+The installation of dynmethods is sped up by preinstalling several Python libraries:
+
+``` bash
+pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
+```
+
+Finally, you can install the dynverse packages as follows:
+
+``` r
+install.packages("devtools")
+library(devtools)
+install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
+install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+```
