@@ -33,7 +33,7 @@ Supported platforms are Linux and Mac OS X. Windows users *could* use [Windows S
 First you need to install a few packages:
 
 ``` bash
-sudo apt-get install libudunits2-dev libgsl-dev libsdl1.2-dev libreadline-dev imagemagick libfftw3-dev libudunits2-dev -y
+sudo apt-get install libudunits2-dev libgsl-dev libsdl1.2-dev libreadline-dev imagemagick libfftw3-dev libudunits2-dev librsvg2-dev -y
 ```
 
 The installation of dynmethods is sped up by preinstalling several Python libraries:
@@ -62,7 +62,7 @@ install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
 First you need to install a few packages:
 
 ``` bash
-sudo dnf install openssl-devel libcurl-devel udunits2-devel libxml2-devel gsl-devel SDL2-devel readline-devel ImageMagick-c++-devel SDL-devel openblas-devel lapack-devel
+sudo dnf install openssl-devel libcurl-devel udunits2-devel libxml2-devel gsl-devel SDL2-devel readline-devel ImageMagick-c++-devel SDL-devel openblas-devel lapack-devel librsvg2-devel
 ```
 
 The installation of dynmethods is sped up by preinstalling several Python libraries:
@@ -89,7 +89,7 @@ install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
 
 ### Mac OS X
 
-First you will need to install the runtime binary of [SDL1.2](https://www.libsdl.org/download-1.2.php) and the development binary of [SDL2](https://www.libsdl.org/download-2.0.php) manually.
+First you will need to install the runtime binary of [SDL1.2](https://www.libsdl.org/download-1.2.php) and the development binary of [SDL2](https://www.libsdl.org/download-2.0.php) manually. Also install `librsvg` with brew.
 
 The installation of dynmethods is sped up by preinstalling several Python libraries:
 
