@@ -9,6 +9,9 @@ Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparis
 
 \*: Equal contribution
 
+Subpackages
+-----------
+
 dynverse consists of several subpackages:
 
 | Package                                                    | Status                                                                                                                          | Description                               |
@@ -22,6 +25,14 @@ dynverse consists of several subpackages:
 | [dyntoy](https://github.com/dynverse/dyntoy)               | [![Build status](https://travis-ci.org/dynverse/dyntoy.svg?branch=master)](https://travis-ci.org/dynverse/dyntoy)               | Quick generator of small toy datasets     |
 | [dynplot](https://github.com/dynverse/dynplot)             | [![Build status](https://travis-ci.org/dynverse/dynplot.svg?branch=master)](https://travis-ci.org/dynverse/dynplot)             | Common visualisation functionality        |
 | [dynutils](https://github.com/dynverse/dynutils)           | [![Build status](https://travis-ci.org/dynverse/dynutils.svg?branch=master)](https://travis-ci.org/dynverse/dynutils)           | Various common functions                  |
+
+Datasets
+--------
+
+We include the following datasets. When using any of these datasets, please also cite our preprint: [![DOI](https://zenodo.org/badge/DOI/10.1101/276907.svg)](https://doi.org/10.1101/276907)
+
+-   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1211533.svg)](https://doi.org/10.5281/zenodo.1211533) Single-cell -omics datasets, both real and synthetic, used to evaluated the trajectory inference methods
+-   **Coming soon** Main results of the evaluation, used to rank the methods and construct practical guidelines
 
 Installation
 ------------
