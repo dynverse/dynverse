@@ -1,3 +1,9 @@
 .clickable{
-    cursor: pointer; 
+    cursor: pointer;
+}
+
+
+svg{
+display: block;
+margin:auto;
 }

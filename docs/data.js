@@ -1,7 +1,7 @@
 "use strict";
 document.addEventListener('DOMContentLoaded', function () {
     d3.xml("./overview_evaluation_expanded_v2.svg").then(function (xml) {
-        document.body.appendChild(xml.documentElement);
+        document.getElementById("main").appendChild(xml.documentElement);
         d3.csv("./hovers.csv").then(function (hover_data) {
             var overview_boxes = d3
                 .select("g#hover_boxes")
