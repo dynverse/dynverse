@@ -21,7 +21,7 @@ library(tidyverse)
 df <- tribble(
   ~Repo, ~Description,
   "dynalysis", "Scripts to reproduce manuscript",
-  "dynwrap", "Common wrapping functionality",
+  "dynwrap", "Common trajectory wrapping functionality",
   "dynmethods", "Wrappers for trajectory inference methods",
   "dyneval", "Metrics and evaluation pipeline",
   "dyngen", "Generator of synthetic datasets",
