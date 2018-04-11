@@ -32,9 +32,10 @@ df <- tribble(
 ) %>% 
   mutate(
     Package = glue::glue("[{Repo}](https://github.com/dynverse/{Repo})"),
-    Status = ifelse(!Repo %in% c("dynalysis"), glue::glue("[![Build status](https://travis-ci.org/dynverse/{Repo}.svg?branch=master)](https://travis-ci.org/dynverse/{Repo})"), "Coming soon")
+    Status = ifelse(!Repo %in% c("dynalysis"), glue::glue("[![Build status](https://travis-ci.org/dynverse/{Repo}.svg?branch=master)](https://travis-ci.org/dynverse/{Repo})"), "Coming soon"),
+    `Code coverage` = ifelse(!Repo %in% c("dynalysis"), glue::glue("[![codecov](https://codecov.io/gh/dynverse/{Repo}/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/{Repo})"), "")
   ) %>% 
-  select(Package, Status, Description)
+  select(Package, Status, `Code coverage`, Description)
 knitr::kable(df)
 
 ```
