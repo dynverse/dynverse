@@ -54,18 +54,19 @@ sudo apt-get install python2.7-dev python3-dev python3-pip
 pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
 ```
 
+Some of the dependencies of dyngen and dynmethods might not be able to load unless you add the following variable to your environment:
+
+``` bash
+echo 'R_MAX_NUM_DLLS=500' >> ~/.Renviron
+```
+
 Finally, you can install the dynverse packages with devtools:
 
 ``` r
 install.packages("devtools")
 library(devtools)
-install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+dyn_packages <- paste0("dynverse/dyn", c("wrap", "methods", "eval", "normaliser", "toy", "gen", "plot"))
+install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 ```
 
 ### Fedora / CentOS
@@ -84,18 +85,19 @@ pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateuti
 Rscript -e 'install.packages("udunits2", configure.args =  c(udunits2 = '--with-udunits2-include=/usr/include/udunits2'))'
 ```
 
-Finally, you can install the dynverse packages as follows:
+Some of the dependencies of dyngen and dynmethods might not be able to load unless you add the following variable to your environment:
+
+``` bash
+echo 'R_MAX_NUM_DLLS=500' >> ~/.Renviron
+```
+
+Finally, you can install the dynverse packages with devtools:
 
 ``` r
 install.packages("devtools")
 library(devtools)
-install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+dyn_packages <- paste0("dynverse/dyn", c("wrap", "methods", "eval", "normaliser", "toy", "gen", "plot"))
+install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 ```
 
 ### Mac OS X
@@ -108,16 +110,17 @@ The installation of dynmethods is sped up by preinstalling several Python librar
 pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
 ```
 
-Finally, you can install the dynverse packages as follows:
+Some of the dependencies of dyngen and dynmethods might not be able to load unless you add the following variable to your environment:
+
+``` bash
+echo 'R_MAX_NUM_DLLS=150' >> ~/.Renviron
+```
+
+Finally, you can install the dynverse packages with devtools:
 
 ``` r
 install.packages("devtools")
 library(devtools)
-install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+dyn_packages <- paste0("dynverse/dyn", c("wrap", "methods", "eval", "normaliser", "toy", "gen", "plot"))
+install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 ```
