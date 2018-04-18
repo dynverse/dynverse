@@ -14,17 +14,17 @@ Subpackages
 
 dynverse consists of several subpackages:
 
-| Package                                                    | Status                                                                                                                          | Description                               |
-|:-----------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|
-| [dynalysis](https://github.com/dynverse/dynalysis)         | Coming soon                                                                                                                     | Scripts to reproduce manuscript           |
-| [dynwrap](https://github.com/dynverse/dynwrap)             | [![Build status](https://travis-ci.org/dynverse/dynwrap.svg?branch=master)](https://travis-ci.org/dynverse/dynwrap)             | Common wrapping functionality             |
-| [dynmethods](https://github.com/dynverse/dynmethods)       | [![Build status](https://travis-ci.org/dynverse/dynmethods.svg?branch=master)](https://travis-ci.org/dynverse/dynmethods)       | Wrappers for trajectory inference methods |
-| [dyneval](https://github.com/dynverse/dyneval)             | [![Build status](https://travis-ci.org/dynverse/dyneval.svg?branch=master)](https://travis-ci.org/dynverse/dyneval)             | Metrics and evaluation pipeline           |
-| [dyngen](https://github.com/dynverse/dyngen)               | Coming soon                                                                                                                     | Generator of synthetic datasets           |
-| [dynnormaliser](https://github.com/dynverse/dynnormaliser) | [![Build status](https://travis-ci.org/dynverse/dynnormaliser.svg?branch=master)](https://travis-ci.org/dynverse/dynnormaliser) | Common normalisation functionality        |
-| [dyntoy](https://github.com/dynverse/dyntoy)               | [![Build status](https://travis-ci.org/dynverse/dyntoy.svg?branch=master)](https://travis-ci.org/dynverse/dyntoy)               | Quick generator of small toy datasets     |
-| [dynplot](https://github.com/dynverse/dynplot)             | [![Build status](https://travis-ci.org/dynverse/dynplot.svg?branch=master)](https://travis-ci.org/dynverse/dynplot)             | Common visualisation functionality        |
-| [dynutils](https://github.com/dynverse/dynutils)           | [![Build status](https://travis-ci.org/dynverse/dynutils.svg?branch=master)](https://travis-ci.org/dynverse/dynutils)           | Various common functions                  |
+| Package                                                    | Status                                                                                                                          | Code coverage                                                                                                                          | Description                               |
+|:-----------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| [dynalysis](https://github.com/dynverse/dynalysis)         | Coming soon                                                                                                                     |                                                                                                                                        | Scripts to reproduce manuscript           |
+| [dynwrap](https://github.com/dynverse/dynwrap)             | [![Build status](https://travis-ci.org/dynverse/dynwrap.svg?branch=master)](https://travis-ci.org/dynverse/dynwrap)             | [![codecov](https://codecov.io/gh/dynverse/dynwrap/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/dynwrap)             | Common trajectory wrapping functionality  |
+| [dynmethods](https://github.com/dynverse/dynmethods)       | [![Build status](https://travis-ci.org/dynverse/dynmethods.svg?branch=master)](https://travis-ci.org/dynverse/dynmethods)       | [![codecov](https://codecov.io/gh/dynverse/dynmethods/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/dynmethods)       | Wrappers for trajectory inference methods |
+| [dyneval](https://github.com/dynverse/dyneval)             | [![Build status](https://travis-ci.org/dynverse/dyneval.svg?branch=master)](https://travis-ci.org/dynverse/dyneval)             | [![codecov](https://codecov.io/gh/dynverse/dyneval/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/dyneval)             | Metrics and evaluation pipeline           |
+| [dyngen](https://github.com/dynverse/dyngen)               | [![Build status](https://travis-ci.org/dynverse/dyngen.svg?branch=master)](https://travis-ci.org/dynverse/dyngen)               | [![codecov](https://codecov.io/gh/dynverse/dyngen/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/dyngen)               | Generator of synthetic datasets           |
+| [dynnormaliser](https://github.com/dynverse/dynnormaliser) | [![Build status](https://travis-ci.org/dynverse/dynnormaliser.svg?branch=master)](https://travis-ci.org/dynverse/dynnormaliser) | [![codecov](https://codecov.io/gh/dynverse/dynnormaliser/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/dynnormaliser) | Common normalisation functionality        |
+| [dyntoy](https://github.com/dynverse/dyntoy)               | [![Build status](https://travis-ci.org/dynverse/dyntoy.svg?branch=master)](https://travis-ci.org/dynverse/dyntoy)               | [![codecov](https://codecov.io/gh/dynverse/dyntoy/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/dyntoy)               | Quick generator of small toy datasets     |
+| [dynplot](https://github.com/dynverse/dynplot)             | [![Build status](https://travis-ci.org/dynverse/dynplot.svg?branch=master)](https://travis-ci.org/dynverse/dynplot)             | [![codecov](https://codecov.io/gh/dynverse/dynplot/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/dynplot)             | Common visualisation functionality        |
+| [dynutils](https://github.com/dynverse/dynutils)           | [![Build status](https://travis-ci.org/dynverse/dynutils.svg?branch=master)](https://travis-ci.org/dynverse/dynutils)           | [![codecov](https://codecov.io/gh/dynverse/dynutils/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/dynutils)           | Various common functions                  |
 
 Datasets
 --------
@@ -54,18 +54,19 @@ sudo apt-get install python2.7-dev python3-dev python3-pip
 pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
 ```
 
+Some of the dependencies of dyngen and dynmethods might not be able to load unless you add the following variable to your environment:
+
+``` bash
+echo 'R_MAX_NUM_DLLS=500' >> ~/.Renviron
+```
+
 Finally, you can install the dynverse packages with devtools:
 
 ``` r
 install.packages("devtools")
 library(devtools)
-install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+dyn_packages <- paste0("dynverse/dyn", c("wrap", "methods", "eval", "normaliser", "toy", "gen", "plot"))
+install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 ```
 
 ### Fedora / CentOS
@@ -84,18 +85,19 @@ pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateuti
 Rscript -e 'install.packages("udunits2", configure.args =  c(udunits2 = '--with-udunits2-include=/usr/include/udunits2'))'
 ```
 
-Finally, you can install the dynverse packages as follows:
+Some of the dependencies of dyngen and dynmethods might not be able to load unless you add the following variable to your environment:
+
+``` bash
+echo 'R_MAX_NUM_DLLS=500' >> ~/.Renviron
+```
+
+Finally, you can install the dynverse packages with devtools:
 
 ``` r
 install.packages("devtools")
 library(devtools)
-install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+dyn_packages <- paste0("dynverse/dyn", c("wrap", "methods", "eval", "normaliser", "toy", "gen", "plot"))
+install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 ```
 
 ### Mac OS X
@@ -108,16 +110,17 @@ The installation of dynmethods is sped up by preinstalling several Python librar
 pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
 ```
 
-Finally, you can install the dynverse packages as follows:
+Some of the dependencies of dyngen and dynmethods might not be able to load unless you add the following variable to your environment:
+
+``` bash
+echo 'R_MAX_NUM_DLLS=150' >> ~/.Renviron
+```
+
+Finally, you can install the dynverse packages with devtools:
 
 ``` r
 install.packages("devtools")
 library(devtools)
-install_github("dynverse/dynwrap", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynmethods", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyneval", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynnormaliser", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dyntoy", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynplot", dependencies = TRUE, build_vignettes = TRUE)
-install_github("dynverse/dynutils", dependencies = TRUE, build_vignettes = TRUE)
+dyn_packages <- paste0("dynverse/dyn", c("wrap", "methods", "eval", "normaliser", "toy", "gen", "plot"))
+install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 ```

@@ -161,4 +161,8 @@
 [submodule "methods/MATCHER"]
 	path = methods/MATCHER
 	url = git@github.com:dynverse/MATCHER.git
+    branch = master
+[submodule "dyndocker"]
+	path = dyndocker
+	url = git@github.com:dynverse/dyndocker.git
 	branch = master
