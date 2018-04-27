@@ -25,6 +25,7 @@ df <- tribble(
   "dynmethods", "Wrappers for trajectory inference methods",
   "dyneval", "Metrics and evaluation pipeline",
   "dyngen", "Generator of synthetic datasets",
+  "dynfeature", "Extracting relevant features (genes)",
   "dynnormaliser", "Common normalisation functionality",
   "dyntoy", "Quick generator of small toy datasets",
   "dynplot", "Common visualisation functionality",
