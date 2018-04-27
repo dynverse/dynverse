@@ -166,3 +166,7 @@
 	path = dyndocker
 	url = git@github.com:dynverse/dyndocker.git
 	branch = master
+[submodule "libraries/aaaimportthisfirst"]
+	path = libraries/aaaimportthisfirst
+	url = git@github.com:dynverse/aaaimportthisfirst.git
+	branch = devel
