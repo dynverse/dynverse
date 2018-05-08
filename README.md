@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-dynverse
-========
+dynverse <img src="docs/logo.png" align="right" />
+==================================================
 
-**dynverse** is created to support the development, execution, and benchmarking of trajectory inference methods. Check out our preprint on bioRxiv:
+**dynverse** is created to support the development, execution, plotting and benchmarking of trajectory inference methods. Check out our preprint on bioRxiv:
 
 Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A comparison of single-cell trajectory inference methods: towards more accurate and robust tools”. bioRxiv (Mar. 2018). DOI: [10.1101/276907](https://doi.org/10.1101/276907).
 
