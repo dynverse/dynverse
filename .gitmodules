@@ -170,3 +170,7 @@
 	path = libraries/aaaimportthisfirst
 	url = git@github.com:dynverse/aaaimportthisfirst.git
 	branch = devel
+[submodule "dynguidelines"]
+	path = dynguidelines
+	url = git@github.com:dynverse/dynguidelines.git
+	branch = devel
