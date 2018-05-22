@@ -174,3 +174,7 @@
 	path = dynguidelines
 	url = git@github.com:dynverse/dynguidelines.git
 	branch = devel
+[submodule "dyno"]
+	path = dyno
+	url = git@github.com:dynverse/dyno.git
+	branch = master
