@@ -178,3 +178,7 @@
 	path = dyno
 	url = git@github.com:dynverse/dyno.git
 	branch = master
+[submodule "methods/destiny"]
+	path = methods/destiny
+	url = git@github.com:dynverse/destiny.git
+	branch = devel
