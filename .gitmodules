@@ -174,7 +174,3 @@
 	path = methods/destiny
 	url = git@github.com:dynverse/destiny.git
 	branch = master
-[submodule "methods/paga"]
-	path = methods/paga
-	url = https://github.com/dynverse/paga.git
-	branch = master
