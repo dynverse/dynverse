@@ -174,3 +174,11 @@
 	path = methods/destiny
 	url = git@github.com:dynverse/destiny.git
 	branch = master
+[submodule "methods/merlot"]
+	path = methods/merlot
+	url = git@github.com:dynverse/merlot.git
+	branch = master
+[submodule "methods/paga"]
+	path = methods/paga
+	url = git@github.com:dynverse/paga.git
+	branch = master
