@@ -182,3 +182,7 @@
 	path = methods/paga
 	url = git@github.com:dynverse/paga.git
 	branch = master
+[submodule "methods/ElPiGraph.R"]
+	path = methods/ElPiGraph.R
+	url = git@github.com:dynverse/ElPiGraph.R.git
+	branch = master
