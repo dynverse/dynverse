@@ -20,15 +20,16 @@ dynverse consists of several subpackages:
 library(tidyverse)
 df <- tribble(
   ~Repo, ~Description,
-  "dynalysis", "Scripts to reproduce manuscript",
+  "dyno", "User-friendly trajectory inference functionality",
   "dynwrap", "Common trajectory wrapping functionality",
   "dynmethods", "Wrappers for trajectory inference methods",
   "dyneval", "Metrics and evaluation pipeline",
   "dyngen", "Generator of synthetic datasets",
   "dynfeature", "Extracting relevant features (genes)",
   "dynnormaliser", "Common normalisation functionality",
-  "dyntoy", "Quick generator of small toy datasets",
   "dynplot", "Common visualisation functionality",
+  "dynalysis", "Scripts to reproduce manuscript",
+  "dyntoy", "Quick generator of small toy datasets",
   "dynutils", "Various common functions"
 ) %>% 
   mutate(
@@ -121,7 +122,15 @@ Finally, you can install the dynverse packages with devtools:
 ```{r, eval = FALSE}
 install.packages("devtools")
 library(devtools)
-dyn_packages <- paste0("dynverse/dyn", c("wrap", "methods", "eval", "normaliser", "toy", "gen", "plot"))
+dyn_packages <- paste0("dynverse/dyn", c("wrap", "plot", "methods", "eval", "feature", "guidelines", "normaliser", "toy", "gen", "o"))
 install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 ```
 
+### Development version
+
+You can install the development branches of these packages by adding a '@devel' at the end:
+```{r, eval = FALSE}
+library(devtools)
+dyn_packages <- paste0("dynverse/dyn", c("wrap", "plot", "methods", "eval", "feature", "guidelines", "normaliser", "toy", "gen", "o"), "@devel")
+install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
+```
