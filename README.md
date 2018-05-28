@@ -132,7 +132,6 @@ install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 You can install the development branches of these packages by adding a '@devel' at the end:
 
 ``` r
-library(devtools)
 dyn_packages <- paste0("dynverse/dyn", c("wrap", "plot", "methods", "eval", "feature", "guidelines", "normaliser", "toy", "gen", "o"), "@devel")
-install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
+devtools::install_github(dyn_packages, dependencies = TRUE, build_vignettes = TRUE)
 ```
