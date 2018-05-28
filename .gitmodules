@@ -6,10 +6,6 @@
 	path = dyneval
 	url = git@github.com:dynverse/dyneval.git
 	branch = master
-[submodule "dynmodular"]
-	path = dynmodular
-	url = git@github.com:rcannood/dynmodular.git
-	branch = master
 [submodule "dynalysis"]
 	path = dynalysis
 	url = git@github.com:Zouter/dynalysis.git
