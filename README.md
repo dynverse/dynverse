@@ -53,7 +53,7 @@ The installation of dynmethods is sped up by preinstalling several Python librar
 
 ``` bash
 sudo apt-get install python2.7-dev python3-dev python3-pip
-pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
+pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata umap
 ```
 
 Some of the dependencies of dyngen and dynmethods might not be able to load unless you add the following variable to your environment:
@@ -83,7 +83,7 @@ The installation of dynmethods is sped up by preinstalling several Python librar
 
 ``` bash
 sudo dnf install python2-devel python3-devel python3-pip python3-matplotlib-tk
-pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
+pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata umap
 Rscript -e 'install.packages("udunits2", configure.args =  c(udunits2 = '--with-udunits2-include=/usr/include/udunits2'))'
 ```
 
@@ -109,7 +109,7 @@ First you will need to install the runtime binary of [SDL1.2](https://www.libsdl
 The installation of dynmethods is sped up by preinstalling several Python libraries:
 
 ``` bash
-pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata
+pip3 install --user virtualenv numpy matplotlib pandas six jinja2 python-dateutil pytz pyparsing cycler tqdm python-igraph rpy2 Cython scipy statsmodels sklearn seaborn h5py anndata umap
 ```
 
 Some of the dependencies of dyngen and dynmethods might not be able to load unless you add the following variable to your environment:
