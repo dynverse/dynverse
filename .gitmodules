@@ -186,3 +186,7 @@
 	path = methods/ElPiGraph.R
 	url = git@github.com:dynverse/ElPiGraph.R.git
 	branch = master
+[submodule "dyndimred"]
+	path = dyndimred
+	url = git@github.com:dynverse/dyndimred.git
+	branch = devel
