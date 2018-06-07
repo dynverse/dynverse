@@ -6,10 +6,6 @@
 	path = dyneval
 	url = git@github.com:dynverse/dyneval.git
 	branch = master
-[submodule "dynmodular"]
-	path = dynmodular
-	url = git@github.com:rcannood/dynmodular.git
-	branch = master
 [submodule "dynalysis"]
 	path = dynalysis
 	url = git@github.com:Zouter/dynalysis.git
@@ -154,10 +150,6 @@
 	path = methods/StemID2
 	url = git@github.com:dynverse/StemID2.git
 	branch = master
-[submodule "methods/aga"]
-	path = methods/aga
-	url = git@github.com:dynverse/aga.git
-	branch = master
 [submodule "methods/MATCHER"]
 	path = methods/MATCHER
 	url = git@github.com:dynverse/MATCHER.git
@@ -169,12 +161,32 @@
 [submodule "libraries/aaaimportthisfirst"]
 	path = libraries/aaaimportthisfirst
 	url = git@github.com:dynverse/aaaimportthisfirst.git
-	branch = devel
+	branch = master
 [submodule "dynguidelines"]
 	path = dynguidelines
 	url = git@github.com:dynverse/dynguidelines.git
-	branch = devel
+	branch = master
 [submodule "dyno"]
 	path = dyno
 	url = git@github.com:dynverse/dyno.git
 	branch = master
+[submodule "methods/destiny"]
+	path = methods/destiny
+	url = git@github.com:dynverse/destiny.git
+	branch = master
+[submodule "methods/merlot"]
+	path = methods/merlot
+	url = git@github.com:dynverse/merlot.git
+	branch = master
+[submodule "methods/paga"]
+	path = methods/paga
+	url = git@github.com:dynverse/paga.git
+	branch = master
+[submodule "methods/ElPiGraph.R"]
+	path = methods/ElPiGraph.R
+	url = git@github.com:dynverse/ElPiGraph.R.git
+	branch = master
+[submodule "dyndimred"]
+	path = dyndimred
+	url = git@github.com:dynverse/dyndimred.git
+	branch = devel
