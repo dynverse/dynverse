@@ -4,7 +4,7 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# dynverse <img src="docs/logo.png" align="right" />
+# dynverse <img src="docs/logo.png" align="right" width="156" height="156" />
 
 **dynverse** is created to support the development, execution, plotting and benchmarking of trajectory inference methods. Check out our preprint on bioRxiv:
 
