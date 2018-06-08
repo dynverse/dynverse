@@ -190,3 +190,7 @@
 	path = dyndimred
 	url = git@github.com:dynverse/dyndimred.git
 	branch = devel
+[submodule "libraries/scater"]
+	path = libraries/scater
+	url = git@github.com:dynverse/scater.git
+	branch = master
