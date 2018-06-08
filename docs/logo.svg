@@ -15,11 +15,11 @@
    viewBox="0 0 68.955512 68.955513"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="logo.svg"
    inkscape:export-filename="/home/wouters/thesis/projects/dynverse/docs/logo.png"
-   inkscape:export-xdpi="299.86328"
-   inkscape:export-ydpi="299.86328">
+   inkscape:export-xdpi="57.463135"
+   inkscape:export-ydpi="57.463135">
   <defs
      id="defs2">
     <linearGradient
@@ -352,15 +352,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="23.21095"
-     inkscape:cy="0.93608681"
+     inkscape:cx="218.17039"
+     inkscape:cy="8.0071545"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="1163"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="983"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -374,7 +374,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
