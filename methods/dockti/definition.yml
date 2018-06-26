@@ -1,0 +1,12 @@
+name: component_one
+parameters:
+  component:
+    type: integer
+    lower: 1
+    upper: 10
+    default: 1
+input:
+  - expression
+  - start_cells
+output:
+  - linear
