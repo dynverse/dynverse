@@ -8,7 +8,7 @@
 	branch = master
 [submodule "dynalysis"]
 	path = dynalysis
-	url = git@github.com:Zouter/dynalysis.git
+	url = git@github.com:dynverse/dynalysis.git
 	branch = master
 [submodule "dynplot"]
 	path = dynplot
@@ -62,14 +62,6 @@
 	path = libraries/fastgssa
 	url = git@github.com:dynverse/fastgssa.git
 	branch = master
-[submodule "libraries/PRISM"]
-	path = libraries/PRISM
-	url = git@github.com:rcannood/PRISM.git
-	branch = master
-[submodule "methods/SCORPIUS"]
-	path = methods/SCORPIUS
-	url = git@github.com:rcannood/SCORPIUS.git
-	branch = master
 [submodule "methods/mfa"]
 	path = methods/mfa
 	url = git@github.com:dynverse/mfa.git
@@ -121,10 +113,6 @@
 [submodule "generators/dyngen"]
 	path = generators/dyngen
 	url = git@github.com:dynverse/dyngen.git
-	branch = master
-[submodule "generators/dyncontrol"]
-	path = generators/dyncontrol
-	url = git@github.com:rcannood/dyncontrol.git
 	branch = master
 [submodule "generators/dyntoy"]
 	path = generators/dyntoy
@@ -181,10 +169,6 @@
 [submodule "methods/paga"]
 	path = methods/paga
 	url = git@github.com:dynverse/paga.git
-	branch = master
-[submodule "methods/ElPiGraph.R"]
-	path = methods/ElPiGraph.R
-	url = git@github.com:dynverse/ElPiGraph.R.git
 	branch = master
 [submodule "dyndimred"]
 	path = dyndimred
