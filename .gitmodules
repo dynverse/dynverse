@@ -1,13 +1,13 @@
 [submodule "dynutils"]
-	path = dynutils
+	path = libraries/dynutils
 	url = git@github.com:dynverse/dynutils.git
 	branch = master
 [submodule "dyneval"]
-	path = dyneval
+	path = libraries/dyneval
 	url = git@github.com:dynverse/dyneval.git
 	branch = master
 [submodule "dynalysis"]
-	path = dynalysis
+	path = dynbenchmark
 	url = git@github.com:dynverse/dynalysis.git
 	branch = master
 [submodule "dynplot"]
@@ -111,11 +111,11 @@
 	url = git@github.com:dynverse/ouijaflow.git
 	branch = master
 [submodule "generators/dyngen"]
-	path = generators/dyngen
+	path = libraries/dyngen
 	url = git@github.com:dynverse/dyngen.git
 	branch = master
 [submodule "generators/dyntoy"]
-	path = generators/dyntoy
+	path = libraries/dyntoy
 	url = git@github.com:dynverse/dyntoy.git
 	branch = master
 [submodule "methods/SCIMITAR"]
@@ -143,7 +143,7 @@
 	url = git@github.com:dynverse/MATCHER.git
     branch = master
 [submodule "dyndocker"]
-	path = dyndocker
+	path = libraries/dyndocker
 	url = git@github.com:dynverse/dyndocker.git
 	branch = master
 [submodule "dynguidelines"]
@@ -167,7 +167,7 @@
 	url = git@github.com:dynverse/paga.git
 	branch = master
 [submodule "dyndimred"]
-	path = dyndimred
+	path = libraries/dyndimred
 	url = git@github.com:dynverse/dyndimred.git
 	branch = devel
 [submodule "libraries/scater"]
@@ -175,6 +175,6 @@
 	url = git@github.com:dynverse/scater.git
 	branch = master
 [submodule "dynfeature"]
-	path = dynfeature
+	path = libraries/dynfeature
 	url = git@github.com:dynverse/dynfeature.git
 	branch = devel
