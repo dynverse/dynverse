@@ -174,3 +174,7 @@
 	path = libraries/scater
 	url = git@github.com:dynverse/scater.git
 	branch = master
+[submodule "dynfeature"]
+	path = dynfeature
+	url = git@github.com:dynverse/dynfeature.git
+	branch = devel
