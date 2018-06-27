@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## dynverse overview
+
+
+```{r, echo = FALSE, warning=FALSE, error=FALSE, message = FALSE}
+library(tidyverse)
+df <- tribble(
+  ~Repo, ~Description,
+  "dynbenchmark", "Scripts to reproduce manuscript",
+  "dyno", "Complete TI pipeline for end-users",
+  "dyndimred", "Commonly used dimensionality reduction methods",
+  "dyneval", "Metrics and evaluation pipeline",
+  "dynfeature", "Feature selection for trajectories",
+  "dyngen", "Generator of synthetic datasets",
+  "dynguidelines", "Interactive guidelines using the results of dynbenchmark",
+  "dynmethods", "Wrappers for trajectory inference methods",
+  "dynnormaliser", "Common normalisation functionality",
+  "dynplot", "Common visualisation functionality",
+  "dyntoy", "Quick generator of small toy datasets",
+  "dynutils", "Various common functions",
+  "dynwrap", "Common trajectory wrapping functionality"
+) %>% 
+  mutate(
+    Package = glue::glue("[{Repo}](https://github.com/dynverse/{Repo})"),
+    Travis = glue::glue("[![Travis](https://img.shields.io/travis/dynverse/{Repo}.svg?logo=travis)](https://travis-ci.org/dynverse/{Repo})"),
+    Appveyor = glue::glue("[![AppVeyor](https://ci.appveyor.com/api/projects/status/github/dynverse/{Repo}?branch=master&svg=true)](https://ci.appveyor.com/project/dynverse/{Repo})"),
+    Codecov = glue::glue("[![codecov](https://codecov.io/gh/dynverse/{Repo}/branch/master/graph/badge.svg)](https://codecov.io/gh/dynverse/{Repo})")
+  ) %>% 
+  select(Package, Travis, Appveyor, Codecov, Description)
+knitr::kable(df)
+
+```
