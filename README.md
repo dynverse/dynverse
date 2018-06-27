@@ -29,4 +29,4 @@ For developers of existing or new TI methods, **dyno** offers the same features 
 -   **[dynmethods](https://github.com/dynverse/dynmethods)**, which is a repository of wrappers for TI methods. If your method has already been included in dynmethods, an [issue](https://github.com/dynverse/dynmethods/issues) will have been created there.
 -   **[dynwrap](https://github.com/dynverse/dynwrap)**, the wrapping functions for transforming common trajectory data formats into the common trajectory model supported by dynverse.
 -   **[dynbenchmark](https://github.com/dynverse/dynbenchmark)**, all source code in order to replicate the benchmarking study by Saelens and Cannoodt ([10.1101/276907](https://doi.org/10.1101/276907)).
--   Check out this (overview of all dynverse packages)\[overview.md\] for more information of the functionality of each package.
+-   Check out this [overview of all dynverse packages](overview.md) for more information of the functionality of each package.
