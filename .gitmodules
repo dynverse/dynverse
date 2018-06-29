@@ -6,9 +6,9 @@
 	path = libraries/dyneval
 	url = git@github.com:dynverse/dyneval.git
 	branch = master
-[submodule "dynalysis"]
+[submodule "dynbenchmark"]
 	path = dynbenchmark
-	url = git@github.com:dynverse/dynalysis.git
+	url = git@github.com:dynverse/dynbenchmark.git
 	branch = master
 [submodule "dynplot"]
 	path = dynplot
