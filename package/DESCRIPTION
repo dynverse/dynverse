@@ -30,5 +30,13 @@ Depends:
   dynmethods,
   dynplot,
   dynutils,
-  dynwrap
+  dynwrap,
+  dyneval
+Remotes:
+  dynverse/dyneval,
+  dynverse/dynmethods,
+  dynverse/dynplot,
+  dynverse/dynutils,
+  dynverse/dynwrap,
+  dynverse/dyneval
 RoxygenNote: 6.0.1
