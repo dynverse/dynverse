@@ -1,0 +1,34 @@
+Package: dynverse
+Version: 0.0.0.9000
+Title: A set of packages designed to evaluate and interpret trajectory infernece methods
+Description: This package loads in the packages dynwrap, dynmethods, dynplot and dynutils
+Authors@R: c(
+    person(
+      "Robrecht", 
+      "Cannoodt", 
+      email = "rcannood@gmail.com", 
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0003-3641-729X", github = "rcannood")
+    ),
+    person(
+      "Wouter", 
+      "Saelens", 
+      email = "wouter.saelens@ugent.be", 
+      role = c("aut"), 
+      comment = c(ORCID = "0000-0002-7114-6248", github = "zouter")
+    )
+  )
+URL: https://github.com/dynverse/dynverse
+BugReports: https://github.com/dynverse/dynverse
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Depends: 
+  R (>= 3.5.0),
+  dyneval,
+  dynmethods,
+  dynplot,
+  dynutils,
+  dynwrap
+RoxygenNote: 6.0.1
