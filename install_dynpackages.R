@@ -42,25 +42,16 @@ dist <- igraph::distances(depgr, mode = "in")
 dist[is.infinite(dist)] <- 0
 dist[dist > 0] <- 1
 
-# overkill way of determining the installation order
-fit <- GA::ga(
-  type = "permutation",
-  fitness = function(ord) {
-    (sum(dist) - sum(dist[ord, ord][lower.tri(dist, diag = FALSE)])) / sum(dist)
-  },
-  nBits = nrow(dist),
-  lower = 1,
-  upper = nrow(dist),
-  maxiter = 1000,
-  popSize = 100,
-  maxFitness = 1,
-  monitor = FALSE
-)
+# determine installation order
+selected_ix <- c()
+to_select_ix <- seq_len(ncol(dist))
 
-install_order <- rownames(dist)[fit@solution[1,]]
-
-ordered_packages <- packages[fit@solution[1,],]
-
+while (length(to_select_ix) > 0) {
+  wts <- colSums(dist[to_select_ix, to_select_ix, drop = FALSE])
+  ix <- which(wts == 0)
+  selected_ix <- c(selected_ix, names(wts)[ix])
+  to_select_ix <- to_select_ix[-ix]
+}
 # install each package individually
 walk(seq_len(nrow(ordered_packages)), function(i) {
   cat("Installing ", i, "/", nrow(ordered_packages), ": ", ordered_packages$package[[i]], "\n", sep = "")
