@@ -49,9 +49,11 @@ to_select_ix <- seq_len(ncol(dist))
 while (length(to_select_ix) > 0) {
   wts <- colSums(dist[to_select_ix, to_select_ix, drop = FALSE])
   ix <- which(wts == 0)
-  selected_ix <- c(selected_ix, names(wts)[ix])
+  selected_ix <- c(selected_ix, to_select_ix[ix])
   to_select_ix <- to_select_ix[-ix]
 }
+ordered_packages <- packages[selected_ix,]
+
 # install each package individually
 walk(seq_len(nrow(ordered_packages)), function(i) {
   cat("Installing ", i, "/", nrow(ordered_packages), ": ", ordered_packages$package[[i]], "\n", sep = "")
