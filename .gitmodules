@@ -178,3 +178,7 @@
 	path = libraries/dynfeature
 	url = git@github.com:dynverse/dynfeature.git
 	branch = devel
+[submodule "libraries/comp1"]
+	path = libraries/comp1
+	url = git@github.com:dynverse/comp1.git
+	branch = devel
