@@ -18,10 +18,6 @@
 	path = methods/topslam
 	url = git@github.com:dynverse/topslam.git
 	branch = master
-[submodule "methods/Mpath"]
-	path = methods/Mpath
-	url = git@github.com:dynverse/Mpath.git
-	branch = master
 [submodule "methods/SCUBA"]
 	path = methods/SCUBA
 	url = git@github.com:dynverse/SCUBA.git
