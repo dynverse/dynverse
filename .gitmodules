@@ -130,10 +130,6 @@
 	path = methods/StemID2
 	url = git@github.com:dynverse/StemID2.git
 	branch = master
-[submodule "methods/MATCHER"]
-	path = methods/MATCHER
-	url = git@github.com:dynverse/MATCHER.git
-    branch = master
 [submodule "dyndocker"]
 	path = libraries/dyndocker
 	url = git@github.com:dynverse/dyndocker.git
