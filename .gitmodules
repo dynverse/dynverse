@@ -18,10 +18,6 @@
 	path = methods/pseudogp
 	url = git@github.com:dynverse/pseudogp.git
 	branch = master
-[submodule "methods/Wishbone"]
-	path = methods/Wishbone
-	url = git@github.com:dynverse/Wishbone.git
-	branch = master
 [submodule "methods/SLICE"]
 	path = methods/SLICE
 	url = git@github.com:dynverse/SLICE.git
