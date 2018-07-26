@@ -90,10 +90,6 @@
 	path = libraries/dynnormaliser
 	url = git@github.com:dynverse/dynnormaliser.git
 	branch = master
-[submodule "methods/ouijaflow"]
-	path = methods/ouijaflow
-	url = git@github.com:dynverse/ouijaflow.git
-	branch = master
 [submodule "generators/dyngen"]
 	path = libraries/dyngen
 	url = git@github.com:dynverse/dyngen.git
