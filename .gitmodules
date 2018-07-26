@@ -34,10 +34,6 @@
 	path = methods/Wishbone
 	url = git@github.com:dynverse/Wishbone.git
 	branch = master
-[submodule "methods/GPfates"]
-	path = methods/GPfates
-	url = git@github.com:dynverse/GPfates.git
-	branch = master
 [submodule "methods/SLICE"]
 	path = methods/SLICE
 	url = git@github.com:dynverse/SLICE.git
