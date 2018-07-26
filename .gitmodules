@@ -50,10 +50,6 @@
 	path = methods/mfa
 	url = git@github.com:dynverse/mfa.git
 	branch = master
-[submodule "methods/SLICER"]
-	path = methods/SLICER
-	url = git@github.com:dynverse/SLICER.git
-	branch = master
 [submodule "methods/slingshot"]
 	path = methods/slingshot
 	url = git@github.com:dynverse/slingshot.git
