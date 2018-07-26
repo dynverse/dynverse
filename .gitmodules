@@ -98,10 +98,6 @@
 	path = libraries/scaterlegacy
 	url = git@github.com:dynverse/scaterlegacy.git
 	branch = master
-[submodule "methods/cellTree"]
-	path = methods/cellTree
-	url = git@github.com:dynverse/cellTree.git
-	branch = RELEASE_3_6
 [submodule "libraries/dynnormaliser"]
 	path = libraries/dynnormaliser
 	url = git@github.com:dynverse/dynnormaliser.git
