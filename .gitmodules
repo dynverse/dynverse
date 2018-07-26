@@ -94,10 +94,6 @@
 	path = libraries/dyntoy
 	url = git@github.com:dynverse/dyntoy.git
 	branch = master
-[submodule "methods/SCIMITAR"]
-	path = methods/SCIMITAR
-	url = git@github.com:dynverse/SCIMITAR.git
-	branch = master
 [submodule "dynwrap"]
 	path = dynwrap
 	url = git@github.com:dynverse/dynwrap.git
