@@ -14,10 +14,6 @@
 	path = dynplot
 	url = git@github.com:dynverse/dynplot.git
 	branch = master
-[submodule "methods/topslam"]
-	path = methods/topslam
-	url = git@github.com:dynverse/topslam.git
-	branch = master
 [submodule "methods/pseudogp"]
 	path = methods/pseudogp
 	url = git@github.com:dynverse/pseudogp.git
