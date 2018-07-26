@@ -74,10 +74,6 @@
 	path = dynwrap
 	url = git@github.com:dynverse/dynwrap.git
 	branch = master
-[submodule "libraries/princurve"]
-	path = libraries/princurve
-	url = git@github.com:dynverse/princurve.git
-	branch = master
 [submodule "methods/StemID2"]
 	path = methods/StemID2
 	url = git@github.com:dynverse/StemID2.git
