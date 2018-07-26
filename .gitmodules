@@ -62,10 +62,6 @@
 	path = methods/mfa
 	url = git@github.com:dynverse/mfa.git
 	branch = master
-[submodule "methods/monocle"]
-	path = methods/monocle
-	url = git@github.com:dynverse/monocle-release.git
-	branch = master
 [submodule "methods/SCOUP"]
 	path = methods/SCOUP
 	url = git@github.com:dynverse/SCOUP.git
