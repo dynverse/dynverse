@@ -134,10 +134,6 @@
 	path = methods/merlot
 	url = git@github.com:dynverse/merlot.git
 	branch = master
-[submodule "methods/paga"]
-	path = methods/paga
-	url = git@github.com:dynverse/paga.git
-	branch = master
 [submodule "dyndimred"]
 	path = libraries/dyndimred
 	url = git@github.com:dynverse/dyndimred.git
