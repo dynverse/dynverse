@@ -22,10 +22,6 @@
 	path = methods/SLICE
 	url = git@github.com:dynverse/SLICE.git
 	branch = master
-[submodule "methods/StemID"]
-	path = methods/StemID
-	url = git@github.com:dynverse/StemID.git
-	branch = master
 [submodule "methods/Waterfall"]
 	path = methods/Waterfall
 	url = git@github.com:dynverse/Waterfall.git
@@ -69,10 +65,6 @@
 [submodule "dynwrap"]
 	path = dynwrap
 	url = git@github.com:dynverse/dynwrap.git
-	branch = master
-[submodule "methods/StemID2"]
-	path = methods/StemID2
-	url = git@github.com:dynverse/StemID2.git
 	branch = master
 [submodule "dyndocker"]
 	path = libraries/dyndocker
