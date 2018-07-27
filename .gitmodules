@@ -30,10 +30,6 @@
 	path = libraries/fastgssa
 	url = git@github.com:dynverse/fastgssa.git
 	branch = master
-[submodule "methods/mfa"]
-	path = methods/mfa
-	url = git@github.com:dynverse/mfa.git
-	branch = master
 [submodule "dynmethods"]
 	path = dynmethods
 	url = git@github.com:dynverse/dynmethods.git
