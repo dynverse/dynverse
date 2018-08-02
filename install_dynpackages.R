@@ -3,7 +3,6 @@
 library(tidyverse)
 requireNamespace("igraph")
 requireNamespace("desc")
-requireNamespace("GA")
 requireNamespace("devtools")
 
 # find local repositories
