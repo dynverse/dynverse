@@ -86,3 +86,7 @@
 	path = libraries/comp1
 	url = git@github.com:dynverse/comp1.git
 	branch = devel
+[submodule "sites/dynmethods_automated_testing"]
+	path = sites/dynmethods_automated_testing
+	url = git@github.com:dynverse/dynmethods_automated_testing.git
+	branch = master
