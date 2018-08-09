@@ -70,10 +70,6 @@
 	path = dyno
 	url = git@github.com:dynverse/dyno.git
 	branch = master
-[submodule "methods/merlot"]
-	path = methods/merlot
-	url = git@github.com:dynverse/merlot.git
-	branch = master
 [submodule "dyndimred"]
 	path = libraries/dyndimred
 	url = git@github.com:dynverse/dyndimred.git
