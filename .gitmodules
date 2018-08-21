@@ -14,45 +14,13 @@
 	path = dynplot
 	url = git@github.com:dynverse/dynplot.git
 	branch = master
-[submodule "methods/topslam"]
-	path = methods/topslam
-	url = git@github.com:dynverse/topslam.git
-	branch = master
-[submodule "methods/Mpath"]
-	path = methods/Mpath
-	url = git@github.com:dynverse/Mpath.git
-	branch = master
-[submodule "methods/SCUBA"]
-	path = methods/SCUBA
-	url = git@github.com:dynverse/SCUBA.git
-	branch = master
-[submodule "methods/pseudogp"]
-	path = methods/pseudogp
-	url = git@github.com:dynverse/pseudogp.git
-	branch = master
-[submodule "methods/Wishbone"]
-	path = methods/Wishbone
-	url = git@github.com:dynverse/Wishbone.git
-	branch = master
-[submodule "methods/GPfates"]
-	path = methods/GPfates
-	url = git@github.com:dynverse/GPfates.git
-	branch = master
 [submodule "methods/SLICE"]
 	path = methods/SLICE
 	url = git@github.com:dynverse/SLICE.git
 	branch = master
-[submodule "methods/StemID"]
-	path = methods/StemID
-	url = git@github.com:dynverse/StemID.git
-	branch = master
 [submodule "methods/Waterfall"]
 	path = methods/Waterfall
 	url = git@github.com:dynverse/Waterfall.git
-	branch = master
-[submodule "methods/pywishbone"]
-	path = methods/pywishbone
-	url = git@github.com:dynverse/pywishbone.git
 	branch = master
 [submodule "methods/PySCUBA"]
 	path = methods/PySCUBA
@@ -62,33 +30,9 @@
 	path = libraries/fastgssa
 	url = git@github.com:dynverse/fastgssa.git
 	branch = master
-[submodule "methods/mfa"]
-	path = methods/mfa
-	url = git@github.com:dynverse/mfa.git
-	branch = master
-[submodule "methods/monocle"]
-	path = methods/monocle
-	url = git@github.com:dynverse/monocle-release.git
-	branch = master
-[submodule "methods/SCOUP"]
-	path = methods/SCOUP
-	url = git@github.com:dynverse/SCOUP.git
-	branch = master
-[submodule "methods/SLICER"]
-	path = methods/SLICER
-	url = git@github.com:dynverse/SLICER.git
-	branch = master
-[submodule "methods/slingshot"]
-	path = methods/slingshot
-	url = git@github.com:dynverse/slingshot.git
-	branch = master
 [submodule "dynmethods"]
 	path = dynmethods
 	url = git@github.com:dynverse/dynmethods.git
-	branch = master
-[submodule "libraries/splatter"]
-	path = libraries/splatter
-	url = git@github.com:dynverse/splatter.git
 	branch = master
 [submodule "methods/embeddr"]
 	path = methods/embeddr
@@ -98,17 +42,9 @@
 	path = libraries/scaterlegacy
 	url = git@github.com:dynverse/scaterlegacy.git
 	branch = master
-[submodule "methods/cellTree"]
-	path = methods/cellTree
-	url = git@github.com:dynverse/cellTree.git
-	branch = RELEASE_3_6
 [submodule "libraries/dynnormaliser"]
 	path = libraries/dynnormaliser
 	url = git@github.com:dynverse/dynnormaliser.git
-	branch = master
-[submodule "methods/ouijaflow"]
-	path = methods/ouijaflow
-	url = git@github.com:dynverse/ouijaflow.git
 	branch = master
 [submodule "generators/dyngen"]
 	path = libraries/dyngen
@@ -118,30 +54,10 @@
 	path = libraries/dyntoy
 	url = git@github.com:dynverse/dyntoy.git
 	branch = master
-[submodule "methods/SCIMITAR"]
-	path = methods/SCIMITAR
-	url = git@github.com:dynverse/SCIMITAR.git
-	branch = master
-[submodule "methods/reCAT"]
-	path = methods/reCAT
-	url = git@github.com:dynverse/reCAT.git
-	branch = master
 [submodule "dynwrap"]
 	path = dynwrap
 	url = git@github.com:dynverse/dynwrap.git
 	branch = master
-[submodule "libraries/princurve"]
-	path = libraries/princurve
-	url = git@github.com:dynverse/princurve.git
-	branch = master
-[submodule "methods/StemID2"]
-	path = methods/StemID2
-	url = git@github.com:dynverse/StemID2.git
-	branch = master
-[submodule "methods/MATCHER"]
-	path = methods/MATCHER
-	url = git@github.com:dynverse/MATCHER.git
-    branch = master
 [submodule "dyndocker"]
 	path = libraries/dyndocker
 	url = git@github.com:dynverse/dyndocker.git
@@ -154,27 +70,19 @@
 	path = dyno
 	url = git@github.com:dynverse/dyno.git
 	branch = master
-[submodule "methods/destiny"]
-	path = methods/destiny
-	url = git@github.com:dynverse/destiny.git
-	branch = master
-[submodule "methods/merlot"]
-	path = methods/merlot
-	url = git@github.com:dynverse/merlot.git
-	branch = master
-[submodule "methods/paga"]
-	path = methods/paga
-	url = git@github.com:dynverse/paga.git
-	branch = master
 [submodule "dyndimred"]
 	path = libraries/dyndimred
 	url = git@github.com:dynverse/dyndimred.git
 	branch = devel
-[submodule "libraries/scater"]
-	path = libraries/scater
-	url = git@github.com:dynverse/scater.git
-	branch = master
 [submodule "dynfeature"]
 	path = libraries/dynfeature
 	url = git@github.com:dynverse/dynfeature.git
 	branch = devel
+[submodule "libraries/comp1"]
+	path = libraries/comp1
+	url = git@github.com:dynverse/comp1.git
+	branch = devel
+[submodule "sites/dynmethods_automated_testing"]
+	path = sites/dynmethods_automated_testing
+	url = git@github.com:dynverse/dynmethods_automated_testing.git
+	branch = master
