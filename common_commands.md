@@ -50,4 +50,23 @@ Update all remote urls to git@github.com/dynverse/...:
 ```bash
 git submodule foreach 'git remote set-url origin `pwd | sed "s#.*/\(.*\)#git@github.com:dynverse/\1.git#"`'
 cd methods/monocle; git remote set-url origin git@github.com:dynverse/monocle-release.git; cd ../..
- ``
+```
+
+===========================================================
+
+Remove large files from a repository
+
+First clone the repo -- don't forget the "--mirror" argument!
+```bash
+git clone --mirror git@github.com:dynverse/dynbenchmark.git
+java -jar ~/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100K --protect-blobs-from master,devel --delete-files '*.{png,pdf,svg,rds,RData,csv,txt,tsv,ods,xls,xlsx}' dynbenchmark
+git push
+```
+
+On all remotes
+```bash
+git reset --hard origin/devel
+git checkout master
+git reset --hard origin/master
+git checkout devel
+```
