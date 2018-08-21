@@ -70,3 +70,11 @@ git checkout master
 git reset --hard origin/master
 git checkout devel
 ```
+
+===========================================================
+
+Apply a sed over all R files in all repositories
+
+```bash
+find . -type f -regex ".*.Rm?d?" -print0 | xargs -0 sed -i 's#ALL YOUR BASE#ARE BELONG TO US#g'
+```
