@@ -82,3 +82,11 @@
 	path = sites/dynmethods_automated_testing
 	url = git@github.com:dynverse/dynmethods_automated_testing.git
 	branch = master
+[submodule "libraries/dynwrap_tester"]
+	path = libraries/dynwrap_tester
+	url = git@github.com:dynverse/dynwrap_tester.git
+	branch = devel
+[submodule "libraries/nettools"]
+	path = libraries/nettools
+	url = git@github.com:dynverse/nettools.git
+	branch = devel
