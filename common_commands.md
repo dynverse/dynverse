@@ -59,12 +59,15 @@ Remove large files from a repository
 First clone the repo -- don't forget the "--mirror" argument!
 ```bash
 git clone --mirror git@github.com:dynverse/dynbenchmark.git
-java -jar ~/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100K --protect-blobs-from master,devel --delete-files '*.{png,pdf,svg,rds,RData,csv,txt,tsv,ods,xls,xlsx}' dynbenchmark
+java -jar ~/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100K --protect-blobs-from master,devel --delete-files '*.{png,pdf,svg,rds,RData,csv,txt,tsv,ods,xls,xlsx}' dynbenchmark.git
+cd dynbenchmark.git
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
 git push
 ```
 
-On all remotes
+At each users laptop
 ```bash
+git pull
 git reset --hard origin/devel
 git checkout master
 git reset --hard origin/master
