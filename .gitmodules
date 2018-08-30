@@ -74,3 +74,174 @@
 	path = libraries/nettools
 	url = git@github.com:dynverse/nettools.git
 	branch = devel
+[submodule "methods/ti_angle"]
+	path = methods/ti_angle
+	url = git@github.com:dynverse/ti_angle.git
+[submodule "methods/ti_calista"]
+	path = methods/ti_calista
+	url = git@github.com:dynverse/ti_calista.git
+[submodule "methods/ti_cellrouter"]
+	path = methods/ti_cellrouter
+	url = git@github.com:dynverse/ti_cellrouter.git
+[submodule "methods/ti_celltrails"]
+	path = methods/ti_celltrails
+	url = git@github.com:dynverse/ti_celltrails.git
+[submodule "methods/ti_celltree_gibbs"]
+	path = methods/ti_celltree_gibbs
+	url = git@github.com:dynverse/ti_celltree_gibbs.git
+[submodule "methods/ti_celltree_maptpx"]
+	path = methods/ti_celltree_maptpx
+	url = git@github.com:dynverse/ti_celltree_maptpx.git
+[submodule "methods/ti_celltree_vem"]
+	path = methods/ti_celltree_vem
+	url = git@github.com:dynverse/ti_celltree_vem.git
+[submodule "methods/ti_comp1"]
+	path = methods/ti_comp1
+	url = git@github.com:dynverse/ti_comp1.git
+[submodule "methods/ti_dpt"]
+	path = methods/ti_dpt
+	url = git@github.com:dynverse/ti_dpt.git
+[submodule "methods/ti_elpicycle"]
+	path = methods/ti_elpicycle
+	url = git@github.com:dynverse/ti_elpicycle.git
+[submodule "methods/ti_elpigraph"]
+	path = methods/ti_elpigraph
+	url = git@github.com:dynverse/ti_elpigraph.git
+[submodule "methods/ti_elpilinear"]
+	path = methods/ti_elpilinear
+	url = git@github.com:dynverse/ti_elpilinear.git
+[submodule "methods/ti_embeddr"]
+	path = methods/ti_embeddr
+	url = git@github.com:dynverse/ti_embeddr.git
+[submodule "methods/ti_error"]
+	path = methods/ti_error
+	url = git@github.com:dynverse/ti_error.git
+[submodule "methods/ti_fateid"]
+	path = methods/ti_fateid
+	url = git@github.com:dynverse/ti_fateid.git
+[submodule "methods/ti_forks"]
+	path = methods/ti_forks
+	url = git@github.com:dynverse/ti_forks.git
+[submodule "methods/ti_gpfates"]
+	path = methods/ti_gpfates
+	url = git@github.com:dynverse/ti_gpfates.git
+[submodule "methods/ti_grandprix"]
+	path = methods/ti_grandprix
+	url = git@github.com:dynverse/ti_grandprix.git
+[submodule "methods/ti_identity"]
+	path = methods/ti_identity
+	url = git@github.com:dynverse/ti_identity.git
+[submodule "methods/ti_matcher"]
+	path = methods/ti_matcher
+	url = git@github.com:dynverse/ti_matcher.git
+[submodule "methods/ti_merlot"]
+	path = methods/ti_merlot
+	url = git@github.com:dynverse/ti_merlot.git
+[submodule "methods/ti_mfa"]
+	path = methods/ti_mfa
+	url = git@github.com:dynverse/ti_mfa.git
+[submodule "methods/ti_monocle_ddrtree"]
+	path = methods/ti_monocle_ddrtree
+	url = git@github.com:dynverse/ti_monocle_ddrtree.git
+[submodule "methods/ti_monocle_ica"]
+	path = methods/ti_monocle_ica
+	url = git@github.com:dynverse/ti_monocle_ica.git
+[submodule "methods/ti_mpath"]
+	path = methods/ti_mpath
+	url = git@github.com:dynverse/ti_mpath.git
+[submodule "methods/ti_ouija"]
+	path = methods/ti_ouija
+	url = git@github.com:dynverse/ti_ouija.git
+[submodule "methods/ti_ouijaflow"]
+	path = methods/ti_ouijaflow
+	url = git@github.com:dynverse/ti_ouijaflow.git
+[submodule "methods/ti_paga"]
+	path = methods/ti_paga
+	url = git@github.com:dynverse/ti_paga.git
+[submodule "methods/ti_pcreode"]
+	path = methods/ti_pcreode
+	url = git@github.com:dynverse/ti_pcreode.git
+[submodule "methods/ti_periodpc"]
+	path = methods/ti_periodpc
+	url = git@github.com:dynverse/ti_periodpc.git
+[submodule "methods/ti_phenopath"]
+	path = methods/ti_phenopath
+	url = git@github.com:dynverse/ti_phenopath.git
+[submodule "methods/ti_projected_dpt"]
+	path = methods/ti_projected_dpt
+	url = git@github.com:dynverse/ti_projected_dpt.git
+[submodule "methods/ti_projected_gng"]
+	path = methods/ti_projected_gng
+	url = git@github.com:dynverse/ti_projected_gng.git
+[submodule "methods/ti_projected_monocle"]
+	path = methods/ti_projected_monocle
+	url = git@github.com:dynverse/ti_projected_monocle.git
+[submodule "methods/ti_projected_paga"]
+	path = methods/ti_projected_paga
+	url = git@github.com:dynverse/ti_projected_paga.git
+[submodule "methods/ti_projected_slingshot"]
+	path = methods/ti_projected_slingshot
+	url = git@github.com:dynverse/ti_projected_slingshot.git
+[submodule "methods/ti_projected_tscan"]
+	path = methods/ti_projected_tscan
+	url = git@github.com:dynverse/ti_projected_tscan.git
+[submodule "methods/ti_pseudogp"]
+	path = methods/ti_pseudogp
+	url = git@github.com:dynverse/ti_pseudogp.git
+[submodule "methods/ti_raceid_stemid"]
+	path = methods/ti_raceid_stemid
+	url = git@github.com:dynverse/ti_raceid_stemid.git
+[submodule "methods/ti_random"]
+	path = methods/ti_random
+	url = git@github.com:dynverse/ti_random.git
+[submodule "methods/ti_recat"]
+	path = methods/ti_recat
+	url = git@github.com:dynverse/ti_recat.git
+[submodule "methods/ti_scimitar"]
+	path = methods/ti_scimitar
+	url = git@github.com:dynverse/ti_scimitar.git
+[submodule "methods/ti_scorpius"]
+	path = methods/ti_scorpius
+	url = git@github.com:dynverse/ti_scorpius.git
+[submodule "methods/ti_scoup"]
+	path = methods/ti_scoup
+	url = git@github.com:dynverse/ti_scoup.git
+[submodule "methods/ti_scuba"]
+	path = methods/ti_scuba
+	url = git@github.com:dynverse/ti_scuba.git
+[submodule "methods/ti_shuffle"]
+	path = methods/ti_shuffle
+	url = git@github.com:dynverse/ti_shuffle.git
+[submodule "methods/ti_sincell"]
+	path = methods/ti_sincell
+	url = git@github.com:dynverse/ti_sincell.git
+[submodule "methods/ti_slice"]
+	path = methods/ti_slice
+	url = git@github.com:dynverse/ti_slice.git
+[submodule "methods/ti_slicer"]
+	path = methods/ti_slicer
+	url = git@github.com:dynverse/ti_slicer.git
+[submodule "methods/ti_slingshot"]
+	path = methods/ti_slingshot
+	url = git@github.com:dynverse/ti_slingshot.git
+[submodule "methods/ti_stemnet"]
+	path = methods/ti_stemnet
+	url = git@github.com:dynverse/ti_stemnet.git
+[submodule "methods/ti_topslam"]
+	path = methods/ti_topslam
+	url = git@github.com:dynverse/ti_topslam.git
+[submodule "methods/ti_tscan"]
+	path = methods/ti_tscan
+	url = git@github.com:dynverse/ti_tscan.git
+[submodule "methods/ti_urd"]
+	path = methods/ti_urd
+	url = git@github.com:dynverse/ti_urd.git
+[submodule "methods/ti_wanderlust"]
+	path = methods/ti_wanderlust
+	url = git@github.com:dynverse/ti_wanderlust.git
+[submodule "methods/ti_waterfall"]
+	path = methods/ti_waterfall
+	url = git@github.com:dynverse/ti_waterfall.git
+[submodule "methods/ti_wishbone"]
+	path = methods/ti_wishbone
+	url = git@github.com:dynverse/ti_wishbone.git
