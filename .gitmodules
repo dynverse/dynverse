@@ -241,3 +241,7 @@
 [submodule "methods/ti_wishbone"]
 	path = methods/ti_wishbone
 	url = git@github.com:dynverse/ti_wishbone.git
+[submodule "libraries/netdist"]
+	path = libraries/netdist
+	url = git@github.com:dynverse/netdist.git
+	branch = devel
