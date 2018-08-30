@@ -14,18 +14,6 @@
 	path = dynplot
 	url = git@github.com:dynverse/dynplot.git
 	branch = master
-[submodule "methods/SLICE"]
-	path = methods/SLICE
-	url = git@github.com:dynverse/SLICE.git
-	branch = master
-[submodule "methods/Waterfall"]
-	path = methods/Waterfall
-	url = git@github.com:dynverse/Waterfall.git
-	branch = master
-[submodule "methods/PySCUBA"]
-	path = methods/PySCUBA
-	url = git@github.com:dynverse/PySCUBA.git
-	branch = master
 [submodule "libraries/fastgssa"]
 	path = libraries/fastgssa
 	url = git@github.com:dynverse/fastgssa.git
@@ -33,10 +21,6 @@
 [submodule "dynmethods"]
 	path = dynmethods
 	url = git@github.com:dynverse/dynmethods.git
-	branch = master
-[submodule "methods/embeddr"]
-	path = methods/embeddr
-	url = git@github.com:dynverse/embeddr.git
 	branch = master
 [submodule "libraries/scaterlegacy"]
 	path = libraries/scaterlegacy
