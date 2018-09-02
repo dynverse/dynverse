@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-dynverse <img src="docs/logo.png" align="right" width="156" height="156" />
+dynverse <img src="docs/logo.png" align="right" width="140" height="160" />
 ===========================================================================
 
 **dynverse** is a collection of R packages aimed at supporting the trajectory inference (TI) community on multiple levels: end-users who want to apply TI on their dataset of interest, and developers who seek to easily quantify the performance of their TI method and compare it to other TI methods.
@@ -16,7 +16,7 @@ End-users
 
 The **[dyno](https://github.com/dynverse/dyno)** package offers **end-users** a complete TI pipeline. It features:
 
--   a uniform interface to 50 [TI methods](https://github.com/dynverse/dynmethods#list-of-included-methods),
+-   a uniform interface to 57 [TI methods](https://github.com/dynverse/dynmethods#list-of-included-methods),
 -   an [interactive guideline tool](https://github.com/dynverse/dyno#selecting-the-most-optimal-ti-methods) to help the user select the most appropriate method,
 -   the [interpretation and visualisation of trajectories](https://github.com/dynverse/dyno#plotting-the-trajectory), including colouring by gene expression or clusters, and
 -   downstream analyses such as the [identification of potential marker genes](https://github.com/dynverse/dyno#plotting-relevant-features).

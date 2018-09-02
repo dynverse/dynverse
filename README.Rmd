@@ -4,7 +4,7 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# dynverse <img src="docs/logo.png" align="right" width="156" height="156" />
+# dynverse <img src="docs/logo.png" align="right" width="140" height="160" />
 
 **dynverse** is a collection of R packages aimed at supporting the trajectory inference (TI) community on multiple levels: end-users who want to apply TI on their dataset of interest, and developers who seek to easily quantify the performance of their TI method and compare it to other TI methods.
 
