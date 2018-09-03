@@ -245,3 +245,6 @@
 	path = libraries/netdist
 	url = git@github.com:dynverse/netdist.git
 	branch = devel
+[submodule "libraries/travis_scripts"]
+	path = libraries/travis_scripts
+	url = git@github.com:dynverse/travis_scripts.git
