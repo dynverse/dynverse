@@ -245,3 +245,7 @@
 	path = libraries/netdist
 	url = git@github.com:dynverse/netdist.git
 	branch = devel
+[submodule "libraries/testing_containers_on_travis"]
+	path = libraries/testing_containers_on_travis
+	url = git@github.com:dynverse/testing_containers_on_travis.git
+	branch = master
