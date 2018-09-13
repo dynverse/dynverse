@@ -248,3 +248,7 @@
 [submodule "libraries/travis_scripts"]
 	path = libraries/travis_scripts
 	url = git@github.com:dynverse/travis_scripts.git
+[submodule "libraries/babelwhale"]
+	path = libraries/babelwhale
+	url = git@github.com:dynverse/babelwhale.git
+	branch = devel
