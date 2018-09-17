@@ -249,3 +249,9 @@
 	path = libraries/babelwhale
 	url = git@github.com:dynverse/babelwhale.git
 	branch = devel
+[submodule "methods/ti_gng"]
+	path = methods/ti_gng
+	url = git@github.com:dynverse/ti_gng.git
+[submodule "methods/ti_mst"]
+	path = methods/ti_mst
+	url = git@github.com:dynverse/ti_mst.git
