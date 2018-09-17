@@ -166,9 +166,6 @@
 [submodule "methods/ti_projected_dpt"]
 	path = methods/ti_projected_dpt
 	url = git@github.com:dynverse/ti_projected_dpt.git
-[submodule "methods/ti_projected_gng"]
-	path = methods/ti_projected_gng
-	url = git@github.com:dynverse/ti_projected_gng.git
 [submodule "methods/ti_projected_monocle"]
 	path = methods/ti_projected_monocle
 	url = git@github.com:dynverse/ti_projected_monocle.git
