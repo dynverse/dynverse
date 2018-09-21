@@ -255,3 +255,6 @@
 [submodule "methods/ti_mst"]
 	path = methods/ti_mst
 	url = git@github.com:dynverse/ti_mst.git
+[submodule "methods/ti_paga_tree"]
+	path = methods/ti_paga_tree
+	url = git@github.com:dynverse/ti_paga_tree.git
