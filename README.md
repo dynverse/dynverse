@@ -14,10 +14,20 @@ available on [bioRxiv](https://doi.org/10.1101/276907). All source code
 has been made available in the
 [dynbenchmark](https://github.com/dynverse/dynbenchmark) repository.
 
-Wouter Saelens\*, Robrecht Cannoodt\*, Helena Todorov, Yvan Saeys. “A
-comparison of single-cell trajectory inference methods: towards more
-accurate and robust tools”. bioRxiv (Mar. 2018). DOI:
-[10.1101/276907](https://doi.org/10.1101/276907).
+> A comparison of single-cell trajectory inference methods: towards more
+> accurate and robust tools  
+> <strong> Wouter Saelens\* </strong>
+> <a href='https://orcid.org/0000-0002-7114-6248'><img src='https://github.com/dynverse/dynmethods/raw/master/man/figures/orcid_logo.svg?sanitize=true' height='16'></a>
+> <a href='https://github.com/zouter'><img src='https://github.com/dynverse/dynmethods/raw/master/man/figures/github_logo.png' height='16'></a>,
+> <strong> Robrecht Cannoodt\* </strong>
+> <a href='https://orcid.org/0000-0003-3641-729X'><img src='https://github.com/dynverse/dynmethods/raw/master/man/figures/orcid_logo.svg?sanitize=true' height='16'></a>
+> <a href='https://github.com/rcannood'><img src='https://github.com/dynverse/dynmethods/raw/master/man/figures/github_logo.png' height='16'></a>,
+> Helena Todorov
+> <a href='https://github.com/Helena-todd'><img src='https://github.com/dynverse/dynmethods/raw/master/man/figures/github_logo.png' height='16'></a>,
+> <em> Yvan Saeys </em>
+> <a href='https://github.com/saeyslab'><img src='https://github.com/dynverse/dynmethods/raw/master/man/figures/github_logo.png' height='16'></a>  
+> [bioRxiv:276907](https://www.biorxiv.org/content/early/2018/03/05/276907)
+> [doi:10.1101/276907](https://doi.org/10.1101/276907)
 
 \*: Equal contribution
 
@@ -26,7 +36,7 @@ accurate and robust tools”. bioRxiv (Mar. 2018). DOI:
 The **[dyno](https://github.com/dynverse/dyno)** package offers
 **end-users** a complete TI pipeline. It features:
 
-  - a uniform interface to 57 [TI
+  - a uniform interface to 59 [TI
     methods](https://github.com/dynverse/dynmethods#list-of-included-methods),
   - an [interactive guideline
     tool](https://github.com/dynverse/dyno#selecting-the-most-optimal-ti-methods)
