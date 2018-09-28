@@ -166,9 +166,6 @@
 [submodule "methods/ti_projected_dpt"]
 	path = methods/ti_projected_dpt
 	url = git@github.com:dynverse/ti_projected_dpt.git
-[submodule "methods/ti_projected_gng"]
-	path = methods/ti_projected_gng
-	url = git@github.com:dynverse/ti_projected_gng.git
 [submodule "methods/ti_projected_monocle"]
 	path = methods/ti_projected_monocle
 	url = git@github.com:dynverse/ti_projected_monocle.git
@@ -245,9 +242,16 @@
 	path = libraries/netdist
 	url = git@github.com:dynverse/netdist.git
 	branch = devel
+[submodule "libraries/travis_scripts"]
+	path = libraries/travis_scripts
+	url = git@github.com:dynverse/travis_scripts.git
+[submodule "libraries/babelwhale"]
+	path = libraries/babelwhale
+	url = git@github.com:dynverse/babelwhale.git
+	branch = devel
+[submodule "methods/ti_gng"]
+	path = methods/ti_gng
+	url = git@github.com:dynverse/ti_gng.git
 [submodule "methods/ti_paga_tree"]
 	path = methods/ti_paga_tree
 	url = git@github.com:dynverse/ti_paga_tree.git
-[submodule "methods/ti_mst"]
-	path = methods/ti_mst
-	url = git@github.com:dynverse/ti_mst.git

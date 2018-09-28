@@ -1,0 +1,31 @@
+language: r
+dist: trusty
+bioc_required: true
+sudo: true
+os:
+  - linux
+cache:
+  directories:
+    - $HOME/.cache # hdf5, singularity
+    - $HOME/R/Library
+services:
+  - docker
+env:
+ - CONTAINER=docker
+ - CONTAINER=singularity
+addons:
+  apt:
+    packages:
+      - libssh-dev  # PRISM > ssh > libssh-dev
+before_install:
+  - git clone https://github.com/dynverse/travis_scripts.git
+  - source travis_scripts/hdf5.sh
+  - if [ "$CONTAINER" == "singularity" ]; then source travis_scripts/singularity.sh; fi
+install:
+ - R -e 'if ("devtools" %in% rownames(installed.packages())) update.packages(oldPkgs = "devtools", ask = FALSE) else install.packages("devtools")'
+ - R -e 'devtools::install_github("dynverse/dynwrap", dep = TRUE, upgrade = TRUE)'
+ - R -e 'devtools::install_github("dynverse/dyntoy", upgrade = TRUE)'
+ - R -e 'devtools::install_github("dynverse/dyneval", dep = TRUE, upgrade = TRUE)'
+script:
+ - if [ "$CONTAINER" == "singularity" ]; then source travis_scripts/test_singularity_image.sh; fi
+ - if [ "$CONTAINER" == "docker" ]; then source travis_scripts/test_docker_image.sh; fi
