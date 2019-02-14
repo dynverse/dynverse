@@ -261,3 +261,10 @@
 [submodule "libraries/dynparam"]
 	path = libraries/dynparam
 	url = git@github.com:dynverse/dynparam.git
+[submodule "libraries/dynwrapr"]
+	path = libraries/dynwrapr
+	url = git@github.com:dynverse/dynwrapr.git
+	branch = master
+[submodule "libraries/dynwrappy3"]
+	path = libraries/dynwrappy3
+	url = git@github.com:dynverse/dynwrappy3.git
