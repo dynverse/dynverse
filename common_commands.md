@@ -81,3 +81,19 @@ Apply a sed over all R files in all repositories
 ```bash
 find . -type f -regex ".*.Rm?d?" -print0 | xargs -0 sed -i 's#ALL YOUR BASE#ARE BELONG TO US#g'
 ```
+
+===========================================================
+
+Encrypt a file on travis
+
+Create a file in a folder that is in your PATH variable (e.g. `~/.bin/travis_enc_all`)
+```bash
+echo credentials >> .gitignore
+tee credentials << HERE
+DOCKER_USERNAME=dynverseorg
+DOCKER_PASSWORD=73...rK
+GITHUB_PAT=dc...29
+HERE
+
+travis encrypt-file credentials --add
+```
