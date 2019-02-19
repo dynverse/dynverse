@@ -62,10 +62,6 @@
 	path = libraries/dynfeature
 	url = git@github.com:dynverse/dynfeature.git
 	branch = devel
-[submodule "sites/dynmethods_automated_testing"]
-	path = sites/dynmethods_automated_testing
-	url = git@github.com:dynverse/dynmethods_automated_testing.git
-	branch = master
 [submodule "libraries/dynwrap_tester"]
 	path = libraries/dynwrap_tester
 	url = git@github.com:dynverse/dynwrap_tester.git
