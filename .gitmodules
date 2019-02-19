@@ -261,3 +261,9 @@
 [submodule "libraries/dynparam"]
 	path = libraries/dynparam
 	url = git@github.com:dynverse/dynparam.git
+[submodule "libraries/dynwrap_containers"]
+	path = libraries/dynwrap_containers
+	url = git@github.com:dynverse/dynwrap_containers.git
+[submodule "sites/dynverse.github.io"]
+	path = sites/dynverse.github.io
+	url = git@github.com:dynverse/dynverse.github.io.git
