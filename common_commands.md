@@ -37,7 +37,7 @@ git push
 
 ===========================================================
 
-Check out all devel branches, if they exist:
+Check out all devel branches, if they exist. First exit detached state if applicable.
 
 ```bash
 git submodule foreach 'if [ `git status | grep detached | wc -l` = 1 ]; then git checkout master; else echo not detached; fi'
