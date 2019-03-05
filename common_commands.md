@@ -86,14 +86,14 @@ find . -type f -regex ".*.Rm?d?" -print0 | xargs -0 sed -i 's#ALL YOUR BASE#ARE 
 
 Encrypt a file on travis
 
-Create a file in a folder that is in your PATH variable (e.g. `~/.bin/travis_enc_all`)
+Create a file in a folder that is in your PATH variable (e.g. `~/bin/travis_enc_all`) containing:
 ```bash
-echo credentials >> .gitignore
-tee credentials << HERE
+travis encrypt-file ~/credentials --add
+```
+
+Create a file with your common credentials:
+```bash
 DOCKER_USERNAME=dynverseorg
 DOCKER_PASSWORD=73...rK
 GITHUB_PAT=dc...29
-HERE
-
-travis encrypt-file credentials --add
 ```
