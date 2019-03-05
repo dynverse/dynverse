@@ -263,3 +263,6 @@
 [submodule "sites/dynverse.github.io"]
 	path = sites/dynverse.github.io
 	url = git@github.com:dynverse/dynverse.github.io.git
+[submodule "libraries/dyncli"]
+	path = libraries/dyncli
+	url = git@github.com:dynverse/dyncli.git
