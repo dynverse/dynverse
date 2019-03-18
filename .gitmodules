@@ -62,10 +62,6 @@
 	path = libraries/dynfeature
 	url = git@github.com:dynverse/dynfeature.git
 	branch = devel
-[submodule "libraries/dynwrap_tester"]
-	path = libraries/dynwrap_tester
-	url = git@github.com:dynverse/dynwrap_tester.git
-	branch = devel
 [submodule "methods/ti_angle"]
 	path = methods/ti_angle
 	url = git@github.com:dynverse/ti_angle.git
