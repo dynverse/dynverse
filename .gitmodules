@@ -263,3 +263,7 @@
 [submodule "libraries/dyncli"]
 	path = libraries/dyncli
 	url = git@github.com:dynverse/dyncli.git
+[submodule "dynsite"]
+	path = dynsite
+	url = git@github.com:dynverse/dynsite.git
+	branch = master
