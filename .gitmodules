@@ -267,3 +267,7 @@
 	path = dynsite
 	url = git@github.com:dynverse/dynsite.git
 	branch = master
+[submodule "libraries/dynclipy"]
+	path = libraries/dynclipy
+	url = git@github.com:dynverse/dynclipy.git
+	branch = master
