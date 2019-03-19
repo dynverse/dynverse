@@ -11,10 +11,10 @@ files <- list.files(path = ".", pattern = "DESCRIPTION", recursive = TRUE, full.
 packages <- map_df(files, function(file){
   descr <- desc::desc(file = file)
   package <- descr$get("Package")
-  data_frame(package, file, dir = gsub("/DESCRIPTION", "", file))
+  tibble(package, file, dir = gsub("/DESCRIPTION", "", file))
 }) %>%
   filter(!grepl("revdep", dir)) %>%
-  as_data_frame()
+  as_tibble()
 
 dependencies <- map_df(packages$file, function(file){
   descr <- desc::desc(file = file)
@@ -26,7 +26,7 @@ dependencies <- map_df(packages$file, function(file){
     rename(dependency = package) %>%
     mutate(package) %>%
     select(package, dependency, type) %>%
-    as_data_frame()
+    as_tibble()
 })
 
 # create dependency graph between dyn-packages
