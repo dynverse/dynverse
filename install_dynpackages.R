@@ -6,34 +6,47 @@ requireNamespace("desc")
 requireNamespace("devtools")
 
 # find local repositories
-files <- list.files(path = ".", pattern = "DESCRIPTION", recursive = TRUE, full.names = TRUE)
+files <- 
+  list.files(path = ".", pattern = "DESCRIPTION", recursive = TRUE, full.names = TRUE) %>% 
+  discard(grepl("revdep", .))
 
 packages <- map_df(files, function(file){
   descr <- desc::desc(file = file)
   package <- descr$get("Package")
-  tibble(package, file, dir = gsub("/DESCRIPTION", "", file))
+  version <- descr$get("Version")
+  tibble(package, version, file, dir = gsub("/DESCRIPTION", "", file))
 }) %>%
-  filter(!grepl("revdep", dir)) %>%
-  as_tibble()
+  as_tibble() %>% 
+  mutate(
+    colour = dynplot:::milestone_palette(name = "rainbow", n = n())
+  )
 
 dependencies <- map_df(packages$file, function(file){
   descr <- desc::desc(file = file)
-
+  
   package <- descr$get("Package")
   deps <- descr$get_deps()
-
+  
   deps %>%
     rename(dependency = package) %>%
     mutate(package) %>%
-    select(package, dependency, type) %>%
+    select(package, dependency, version, type) %>%
     as_tibble()
 })
 
+dyndependencies <- 
+  dependencies %>% 
+  inner_join(packages %>% select(package), by = "package") %>% 
+  inner_join(packages %>% select(dependency = package), by = "dependency")
+
+# packages %>% write_tsv("~/packages_info.tsv")
+# dyndependencies %>% write_tsv("~/packages_dependencies.tsv")
+
 # create dependency graph between dyn-packages
 depgr <- igraph::graph_from_data_frame(
-  d = dependencies %>% filter(grepl("^dyn", package), grepl("^dyn", dependency)),
+  d = dyndependencies,
   directed = TRUE,
-  vertices = packages %>% filter(grepl("^dyn", package))
+  vertices = packages
 )
 
 # calculate which nodes are connected to which, taking directionality into account
