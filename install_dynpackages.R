@@ -85,7 +85,6 @@ selected_ix <- c()
 to_select_ix <- seq_len(ncol(dist))
 
 while (length(to_select_ix) > 0) {
-  print(dist[to_select_ix, to_select_ix, drop = FALSE])
   wts <- colSums(dist[to_select_ix, to_select_ix, drop = FALSE])
   ix <- which(wts == 0)
   selected_ix <- c(selected_ix, to_select_ix[ix])
