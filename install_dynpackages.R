@@ -9,7 +9,7 @@ requireNamespace("igraph", quietly = TRUE)
 # find local repositories
 files <-
   list.files(path = ".", pattern = "DESCRIPTION", recursive = TRUE, full.names = TRUE) %>%
-  discard(grepl("revdep", .))
+  discard(grepl("revdep|Rcheck", .))
 
 packages <- map_df(files, function(file){
   descr <- desc::desc(file = file)
