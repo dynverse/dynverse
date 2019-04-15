@@ -42,10 +42,6 @@
 	path = dynwrap
 	url = git@github.com:dynverse/dynwrap.git
 	branch = master
-[submodule "dyndocker"]
-	path = libraries/dyndocker
-	url = git@github.com:dynverse/dyndocker.git
-	branch = master
 [submodule "dynguidelines"]
 	path = dynguidelines
 	url = git@github.com:dynverse/dynguidelines.git
