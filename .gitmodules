@@ -263,3 +263,6 @@
 	path = libraries/dynclipy
 	url = git@github.com:dynverse/dynclipy.git
 	branch = master
+[submodule "libraries/travis_package_cacher"]
+	path = libraries/travis_package_cacher
+	url = git@github.com:dynverse/travis_package_cacher.git
