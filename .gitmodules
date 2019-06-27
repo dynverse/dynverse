@@ -42,10 +42,6 @@
 	path = dynwrap
 	url = git@github.com:dynverse/dynwrap.git
 	branch = master
-[submodule "dyndocker"]
-	path = libraries/dyndocker
-	url = git@github.com:dynverse/dyndocker.git
-	branch = master
 [submodule "dynguidelines"]
 	path = dynguidelines
 	url = git@github.com:dynverse/dynguidelines.git
@@ -271,3 +267,6 @@
 	path = dynplot2
 	url = git@github.com:dynverse/dynplot2.git
 	branch = devel
+[submodule "libraries/travis_package_cacher"]
+	path = libraries/travis_package_cacher
+	url = git@github.com:dynverse/travis_package_cacher.git
