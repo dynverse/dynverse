@@ -267,3 +267,7 @@
 	path = libraries/dynclipy
 	url = git@github.com:dynverse/dynclipy.git
 	branch = master
+[submodule "dynplot2"]
+	path = dynplot2
+	url = git@github.com:dynverse/dynplot2.git
+	branch = devel
