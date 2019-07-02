@@ -267,3 +267,6 @@
 	path = dynplot2
 	url = git@github.com:dynverse/dynplot2.git
 	branch = devel
+[submodule "methods/ti_oscope"]
+	path = methods/ti_oscope
+	url = git@github.com:dynverse/ti_oscope.git
