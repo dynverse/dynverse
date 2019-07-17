@@ -14,10 +14,6 @@
 	path = dynplot
 	url = git@github.com:dynverse/dynplot.git
 	branch = master
-[submodule "libraries/fastgssa"]
-	path = libraries/fastgssa
-	url = git@github.com:dynverse/fastgssa.git
-	branch = master
 [submodule "dynmethods"]
 	path = dynmethods
 	url = git@github.com:dynverse/dynmethods.git
