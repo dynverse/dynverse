@@ -266,3 +266,6 @@
 [submodule "methods/ti_oscope"]
 	path = methods/ti_oscope
 	url = git@github.com:dynverse/ti_oscope.git
+[submodule "methods/ti_monocle3"]
+	path = methods/ti_monocle3
+	url = git@github.com:dynverse/ti_monocle3
