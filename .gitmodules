@@ -269,3 +269,11 @@
 [submodule "methods/ti_monocle3"]
 	path = methods/ti_monocle3
 	url = git@github.com:dynverse/ti_monocle3
+[submodule "manuscripts/dyno_manuscript"]
+	path = manuscripts/dyno_manuscript
+	url = git@github.com:zouter/dyno_manuscript.git
+	branch = master
+[submodule "libraries/scvelo"]
+	path = libraries/scvelo
+	url = git@github.com:dynverse/scvelo.git
+	branch = master

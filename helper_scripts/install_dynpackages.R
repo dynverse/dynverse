@@ -6,6 +6,8 @@ library(desc, warn.conflicts = FALSE)
 library(devtools, warn.conflicts = FALSE)
 requireNamespace("igraph", quietly = TRUE)
 
+setRepositories(ind=1:4)
+
 # find local repositories
 files <-
   list.files(path = ".", pattern = "DESCRIPTION", recursive = TRUE, full.names = TRUE) %>%
