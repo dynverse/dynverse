@@ -27,6 +27,7 @@ df <- tibble(
     url = desc$get_field("URL", NA),
     package = desc$get_field("Package")
   ) %>% 
+  arrange(package) %>% 
   transmute(
     Package = glue::glue("[{package}](https://github.com/dynverse/{package})"),
     Travis = glue::glue("[![Travis](https://img.shields.io/travis/dynverse/{package}.svg?logo=travis)](https://travis-ci.org/dynverse/{package})"),
