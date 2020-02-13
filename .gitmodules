@@ -277,3 +277,6 @@
 	path = libraries/scvelo
 	url = git@github.com:dynverse/scvelo.git
 	branch = master
+[submodule "manuscripts/dyngen_manuscript"]
+	path = manuscripts/dyngen_manuscript
+	url = git@github.com:dynverse/dyngen_manuscript.git
