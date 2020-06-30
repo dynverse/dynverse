@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 
 library(dplyr, warn.conflicts = FALSE)
 library(purrr, warn.conflicts = FALSE)
@@ -11,7 +11,8 @@ setRepositories(ind=1:4)
 # find local repositories
 files <-
   list.files(path = ".", pattern = "DESCRIPTION", recursive = TRUE, full.names = TRUE) %>%
-  discard(grepl("revdep|Rcheck", .))
+  discard(grepl("revdep|Rcheck", .)) %>%
+  discard(grepl("^ti", .))
 
 packages <- map_df(files, function(file){
   descr <- desc::desc(file = file)
