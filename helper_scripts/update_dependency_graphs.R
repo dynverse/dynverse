@@ -33,6 +33,33 @@ dependencies <- map_df(packages$file, function(file){
 }) %>%
   filter(dependency %in% packages$package)
 
+
+# create dependency graph between dyn-packages
+depgr <- igraph::graph_from_data_frame(
+  d = dependencies,
+  directed = TRUE,
+  vertices = packages
+)
+
+color_type <- c("Depends" = "#001f3f", "Imports" = "#0074D9", "Suggests" = "#39CCCC")
+graph <- tidygraph::as_tbl_graph(depgr)
+ggraph(graph, layout = "sugiyama") +
+  geom_edge_diagonal(aes(color = type)) +
+  geom_node_point() +
+  ggrepel::geom_label_repel(
+    aes(x = x, y = y, label = name),
+    nudge_y = 0.1,
+    label.size = 0,
+    fill = "#FFFFFF22",
+    min.segment.length = 0
+  ) +
+  scale_edge_color_manual("Dependency type", values = color_type) +
+  scale_edge_width_manual(values = c(`TRUE` = 1.5, `FALSE` = 0.5), guide = FALSE) +
+  theme_graph() +
+  theme(legend.position = "bottom")
+
+
+
 pmap(packages, function(package_oi, dir, ...) {
   packages <- packages %>%
     filter(package %in% c(dependencies$package, dependencies$dependency)) %>%
