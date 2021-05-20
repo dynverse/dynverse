@@ -18,10 +18,6 @@
 	path = dynmethods
 	url = git@github.com:dynverse/dynmethods.git
 	branch = master
-[submodule "libraries/scaterlegacy"]
-	path = libraries/scaterlegacy
-	url = git@github.com:dynverse/scaterlegacy.git
-	branch = master
 [submodule "libraries/dynnormaliser"]
 	path = libraries/dynnormaliser
 	url = git@github.com:dynverse/dynnormaliser.git
